@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1478271335,
-    'checksum' => '9df8b03af2c7551e70c8ccffcccf26bf',
+    'timestamp' => 1478290285,
+    'checksum' => '548ad50329243152abbc13fbe61a3e04',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1478176405
+                'modified' => 1478290277
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -510,32 +510,16 @@ return [
                     'label' => 'Facebook',
                     'url' => '#',
                     'icon' => 'facebook'
-                ],
-                2 => [
-                    'label' => 'Google+',
-                    'url' => '#',
-                    'icon' => 'google-plus'
-                ],
-                3 => [
-                    'label' => 'Github',
-                    'url' => '#',
-                    'icon' => 'github'
-                ],
-                4 => [
-                    'label' => 'Dribbble',
-                    'url' => '#',
-                    'icon' => 'dribbble'
                 ]
             ],
             'copyright' => [
-                'line1' => 'Untitled',
+                'line1' => 'Netquatro',
                 'line2' => 'Design:',
-                'url' => 'http://html5up.net',
-                'url_label' => 'HTML5 UP'
+                'url' => 'http://www.netquatro.com',
+                'url_label' => 'Netquatro'
             ],
             'logo' => [
-                'text1' => 'Twenty',
-                'text2' => 'by HTML5 UP'
+                'text1' => 'Netquatro'
             ],
             'submenu' => [
                 0 => [

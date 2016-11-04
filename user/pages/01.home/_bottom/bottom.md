@@ -1,11 +1,8 @@
 ---
-title: Ready to do <strong>something</strong>?
+title: En netquatro contamos con mas servicios que le pueden interesar
 buttons:
-    - text: Take My Money
+    - text: Conozcalos
       url: '#'
       class: special
-    - text: LOL Wut
-      url: '#'  
 menu: after_article      
 ---
-Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.

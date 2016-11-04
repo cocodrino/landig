@@ -25,26 +25,13 @@ social:
     label: Facebook
     url: '#'
     icon: facebook
-  -
-    label: Google+
-    url: '#'
-    icon: google-plus
-  -
-    label: Github
-    url: '#'
-    icon: github
-  -
-    label: Dribbble
-    url: '#'
-    icon: dribbble
 copyright:
-  line1: Untitled
+  line1: Netquatro
   line2: 'Design:'
-  url: 'http://html5up.net'
-  url_label: 'HTML5 UP'
+  url: 'http://www.netquatro.com'
+  url_label: 'Netquatro'
 logo:
-  text1: Twenty
-  text2: 'by HTML5 UP'
+  text1: Netquatro
 submenu:
   -
     text: 'Dolore Sed'

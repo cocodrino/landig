@@ -51,3 +51,20 @@ ol {
     background-color: #31308C !important;
     border-color: #31308C !important;
 }
+
+img.logo-empresa {
+    max-width: 161px;
+    position: relative;
+    top: -5px;
+}
+
+.image.featured {
+    display: inline !important;
+    margin: 0 0 2em 0;
+}
+
+.image.featured img {
+    display: block;
+    width: auto;
+    max-height: 95px;
+}

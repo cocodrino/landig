@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/netquatro/Descargas/landingpage/landig/user/config/site.yaml',
-    'modified' => 1478176405,
+    'modified' => 1478290277,
     'data' => [
         'title' => 'Net4Cloud',
         'author' => [
@@ -37,32 +37,16 @@ return [
                 'label' => 'Facebook',
                 'url' => '#',
                 'icon' => 'facebook'
-            ],
-            2 => [
-                'label' => 'Google+',
-                'url' => '#',
-                'icon' => 'google-plus'
-            ],
-            3 => [
-                'label' => 'Github',
-                'url' => '#',
-                'icon' => 'github'
-            ],
-            4 => [
-                'label' => 'Dribbble',
-                'url' => '#',
-                'icon' => 'dribbble'
             ]
         ],
         'copyright' => [
-            'line1' => 'Untitled',
+            'line1' => 'Netquatro',
             'line2' => 'Design:',
-            'url' => 'http://html5up.net',
-            'url_label' => 'HTML5 UP'
+            'url' => 'http://www.netquatro.com',
+            'url_label' => 'Netquatro'
         ],
         'logo' => [
-            'text1' => 'Twenty',
-            'text2' => 'by HTML5 UP'
+            'text1' => 'Netquatro'
         ],
         'submenu' => [
             0 => [
