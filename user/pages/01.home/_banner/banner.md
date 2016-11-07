@@ -1,5 +1,6 @@
 ---
 title: Net4Email
+image: net4email-transpar.png
 buttons:
     - text: Conozca cómo corregirlo
       url: '#confie'

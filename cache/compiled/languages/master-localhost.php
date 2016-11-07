@@ -1,265 +1,265 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1478485246,
-    'checksum' => '112650d6730650414af43e6e9347bc81',
+    'timestamp' => 1478542020,
+    'checksum' => '1a5b2778d886e0013216e0eb25451aa1',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ]
         ],
         'user/plugins' => [
-            'plugins/email' => [
-                'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1478470029
+            'plugins/form' => [
+                'file' => 'user/plugins/form/languages.yaml',
+                'modified' => 1478524438
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
-                'modified' => 1478470030
+                'modified' => 1478524438
+            ],
+            'plugins/email' => [
+                'file' => 'user/plugins/email/languages.yaml',
+                'modified' => 1478524438
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/languages.yaml',
-                'modified' => 1478470030
-            ],
-            'plugins/form' => [
-                'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1478470030
+                'modified' => 1478524438
             ]
         ],
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1478470029
+                'modified' => 1478524438
             ]
         ]
     ],
@@ -2358,13 +2358,13 @@ Ruta: `%2$s`
                 'NON_ROUTABLE' => 'Ikke tilgængelig',
                 'NON_MODULAR' => 'Ikke modulær'
             ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurere venligst en \'til\' email adresse i Email Plugin indstillingerne eller her i formularen',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurere venligst en \'fra\' email adresse i Email Plugin indstillingerne eller her i formularen'
-            ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Fejl',
                 'ERROR_MESSAGE' => 'Ups. Det ser ud til at siden ikke eksisterer.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurere venligst en \'til\' email adresse i Email Plugin indstillingerne eller her i formularen',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurere venligst en \'fra\' email adresse i Email Plugin indstillingerne eller her i formularen'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Titel: %1$s
@@ -3010,14 +3010,26 @@ Sti: `%2$s`
                 'TYPE' => 'Typ',
                 'FILE_EXTENSION' => 'Dateiendung'
             ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Formularwerte nicht gültig. Für ein oder mehrere erforderliche Felder fehlen Werte.',
+                'NONCE_NOT_VALIDATED' => 'Ups, es gibt da ein Problem. Eingabewerte bitte noch mal prüfen und das Formular erneut absenden.',
+                'FILES' => 'Dateien hochladen',
+                'ALLOW_MULTIPLE' => 'Erlaube mehr als eine Datei',
+                'ALLOW_MULTIPLE_HELP' => 'Erlaubt es, mehr als eine Datei zum Hochladen auszuwählen.',
+                'DESTINATION' => 'Ziel',
+                'DESTINATION_HELP' => 'Das Ziel, wohin die Dateien hochgeladen werden sollen.',
+                'ACCEPT' => 'Erlaube MIME-Typen',
+                'ACCEPT_HELP' => 'Eine Liste von MIME-Typen, die hochgeladen werden dürfen.',
+                'ERROR_VALIDATING_CAPTCHA' => 'Die Überprüfung des Captcha ist fehlgeschlagen.'
             ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Fehler',
                 'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Benutzername',
@@ -3063,18 +3075,6 @@ Sti: `%2$s`
                 'REDIRECT_AFTER_REGISTRATION' => 'Umleitung nach Registrierung',
                 'OPTIONS' => 'Optionen',
                 'EMAIL_VALIDATION_MESSAGE' => 'Muss eine gültige E-Mail Adresse sein'
-            ],
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Formularwerte nicht gültig. Für ein oder mehrere erforderliche Felder fehlen Werte.',
-                'NONCE_NOT_VALIDATED' => 'Ups, es gibt da ein Problem. Eingabewerte bitte noch mal prüfen und das Formular erneut absenden.',
-                'FILES' => 'Dateien hochladen',
-                'ALLOW_MULTIPLE' => 'Erlaube mehr als eine Datei',
-                'ALLOW_MULTIPLE_HELP' => 'Erlaubt es, mehr als eine Datei zum Hochladen auszuwählen.',
-                'DESTINATION' => 'Ziel',
-                'DESTINATION_HELP' => 'Das Ziel, wohin die Dateien hochgeladen werden sollen.',
-                'ACCEPT' => 'Erlaube MIME-Typen',
-                'ACCEPT_HELP' => 'Eine Liste von MIME-Typen, die hochgeladen werden dürfen.',
-                'ERROR_VALIDATING_CAPTCHA' => 'Die Überprüfung des Captcha ist fehlgeschlagen.'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -4175,16 +4175,51 @@ Pfad: `%2$s`
                 'REDIS_SOCKET' => 'Redis socket',
                 'REDIS_SOCKET_HELP' => 'The Redis socket'
             ],
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.',
+                'NONCE_NOT_VALIDATED' => 'Oops there was a problem, please check your input and submit the form again.',
+                'FILES' => 'Files Upload',
+                'ALLOW_MULTIPLE' => 'Allow More than one file',
+                'ALLOW_MULTIPLE_HELP' => 'Allows to select more than one file for upload.',
+                'DESTINATION' => 'Destination',
+                'DESTINATION_HELP' => 'The location where the files should be uploaded to',
+                'ACCEPT' => 'Allowed MIME Types',
+                'ACCEPT_HELP' => 'A list of MIME Types that are allowed for upload',
+                'ERROR_VALIDATING_CAPTCHA' => 'Error validating the Captcha',
+                'DATA_SUMMARY' => 'Here is the summary of what you wrote to us:',
+                'NO_FORM_DATA' => 'No form data available',
+                'RECAPTCHA' => 'ReCaptcha',
+                'RECAPTCHA_SITE_KEY' => 'Site key',
+                'RECAPTCHA_SITE_KEY_HELP' => 'For more info visit https://developers.google.com/recaptcha',
+                'RECAPTCHA_SECRET_KEY' => 'Secret key',
+                'RECAPTCHA_SECRET_KEY_HELP' => 'For more info visit https://developers.google.com/recaptcha',
+                'GENERAL' => 'General',
+                'USE_BUILT_IN_CSS' => 'Use built-in CSS',
+                'FILEUPLOAD_PREVENT_SELF' => 'Cannot use "%s" outside of pages.',
+                'FILEUPLOAD_UNABLE_TO_UPLOAD' => 'Unable to upload file %s: %s',
+                'FILEUPLOAD_UNABLE_TO_MOVE' => 'Unable to move file %s to "%s"',
+                'DROPZONE_CANCEL_UPLOAD' => 'Cancel upload',
+                'DROPZONE_CANCEL_UPLOAD_CONFIRMATION' => 'Are you sure you want to cancel this upload?',
+                'DROPZONE_DEFAULT_MESSAGE' => 'Drop your files here or <strong>click in this area</strong>',
+                'DROPZONE_FALLBACK_MESSAGE' => 'Your browser does not support drag and drop file uploads.',
+                'DROPZONE_FALLBACK_TEXT' => 'Please use the fallback form below to upload your files like in the olden days.',
+                'DROPZONE_FILE_TOO_BIG' => 'File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB.',
+                'DROPZONE_INVALID_FILE_TYPE' => 'You can\'t upload files of this type.',
+                'DROPZONE_MAX_FILES_EXCEEDED' => 'You can not upload any more files.',
+                'DROPZONE_REMOVE_FILE' => 'Remove file',
+                'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Are you sure you want to delete this file?',
+                'DROPZONE_RESPONSE_ERROR' => 'Server responded with {{statusCode}} code.'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Error',
+                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
+            ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Email not configured',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Please configure a \'to\' address in the Email Plugin settings, or in the form',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Please configure a \'from\' address in the Email Plugin settings, or in the form',
                 'TEST_EMAIL_BODY' => '<h1>Testing Email</h1><p>This test email has been sent based on the following configuration:</p>  <p><pre>%1$s</pre></p>',
                 'EMAIL_FOOTER' => 'GetGrav.org'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Error',
-                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Username',
@@ -4273,41 +4308,6 @@ Pfad: `%2$s`
                 'USE_PARENT_ACL_HELP' => 'Check for parent access rules if no rules are defined',
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => 'Protect a login-protected page media',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'If enabled, media of a login protected page is login protected as well and cannot be seen unless logged in'
-            ],
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.',
-                'NONCE_NOT_VALIDATED' => 'Oops there was a problem, please check your input and submit the form again.',
-                'FILES' => 'Files Upload',
-                'ALLOW_MULTIPLE' => 'Allow More than one file',
-                'ALLOW_MULTIPLE_HELP' => 'Allows to select more than one file for upload.',
-                'DESTINATION' => 'Destination',
-                'DESTINATION_HELP' => 'The location where the files should be uploaded to',
-                'ACCEPT' => 'Allowed MIME Types',
-                'ACCEPT_HELP' => 'A list of MIME Types that are allowed for upload',
-                'ERROR_VALIDATING_CAPTCHA' => 'Error validating the Captcha',
-                'DATA_SUMMARY' => 'Here is the summary of what you wrote to us:',
-                'NO_FORM_DATA' => 'No form data available',
-                'RECAPTCHA' => 'ReCaptcha',
-                'RECAPTCHA_SITE_KEY' => 'Site key',
-                'RECAPTCHA_SITE_KEY_HELP' => 'For more info visit https://developers.google.com/recaptcha',
-                'RECAPTCHA_SECRET_KEY' => 'Secret key',
-                'RECAPTCHA_SECRET_KEY_HELP' => 'For more info visit https://developers.google.com/recaptcha',
-                'GENERAL' => 'General',
-                'USE_BUILT_IN_CSS' => 'Use built-in CSS',
-                'FILEUPLOAD_PREVENT_SELF' => 'Cannot use "%s" outside of pages.',
-                'FILEUPLOAD_UNABLE_TO_UPLOAD' => 'Unable to upload file %s: %s',
-                'FILEUPLOAD_UNABLE_TO_MOVE' => 'Unable to move file %s to "%s"',
-                'DROPZONE_CANCEL_UPLOAD' => 'Cancel upload',
-                'DROPZONE_CANCEL_UPLOAD_CONFIRMATION' => 'Are you sure you want to cancel this upload?',
-                'DROPZONE_DEFAULT_MESSAGE' => 'Drop your files here or <strong>click in this area</strong>',
-                'DROPZONE_FALLBACK_MESSAGE' => 'Your browser does not support drag and drop file uploads.',
-                'DROPZONE_FALLBACK_TEXT' => 'Please use the fallback form below to upload your files like in the olden days.',
-                'DROPZONE_FILE_TOO_BIG' => 'File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB.',
-                'DROPZONE_INVALID_FILE_TYPE' => 'You can\'t upload files of this type.',
-                'DROPZONE_MAX_FILES_EXCEEDED' => 'You can not upload any more files.',
-                'DROPZONE_REMOVE_FILE' => 'Remove file',
-                'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Are you sure you want to delete this file?',
-                'DROPZONE_RESPONSE_ERROR' => 'Server responded with {{statusCode}} code.'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -5019,10 +5019,6 @@ Path: `%2$s`
                 'TYPE' => 'Tipo',
                 'FILE_EXTENSION' => 'Extensión de Archivo'
             ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Falló la validación del formulario. Uno o más campos obligatorios no fueron cubiertos.',
                 'NONCE_NOT_VALIDATED' => 'Oops, hay un problema, por favor revise la información e intente enviar el formulario otra vez.',
@@ -5039,6 +5035,10 @@ Path: `%2$s`
                 'RECAPTCHA_SITE_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha',
                 'RECAPTCHA_SECRET_KEY' => 'Secret key',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha'
+            ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -6277,16 +6277,51 @@ Ruta: `%2$s`
                 'FROM' => 'de',
                 'TO' => 'à'
             ],
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Formulaire non validé. Un ou plusieurs champs obligatoires sont manquants.',
+                'NONCE_NOT_VALIDATED' => 'Oups, un problème est survenu. Veuillez vérifier votre saisie et soumettre à nouveau le formulaire.',
+                'FILES' => 'Fichiers chargés',
+                'ALLOW_MULTIPLE' => 'Autoriser plus d\'un fichier',
+                'ALLOW_MULTIPLE_HELP' => 'Permet la sélection de plusieurs fichiers pour chargement.',
+                'DESTINATION' => 'Destination',
+                'DESTINATION_HELP' => 'L\'emplacement où les fichiers doivent être chargés.',
+                'ACCEPT' => 'Autoriser les Types MIME',
+                'ACCEPT_HELP' => 'Liste des Types MIME autorisés au chargement',
+                'ERROR_VALIDATING_CAPTCHA' => 'Erreur lors de la validation du Captcha',
+                'DATA_SUMMARY' => 'Voici le résumé de ce que vous nous avez écrit :',
+                'NO_FORM_DATA' => 'Aucune donnée de formulaire disponible',
+                'RECAPTCHA' => 'ReCaptcha',
+                'RECAPTCHA_SITE_KEY' => 'Clé du site',
+                'RECAPTCHA_SITE_KEY_HELP' => 'Pour plus d\'informations veuillez vous rendre sur https://developers.google.com/recaptcha',
+                'RECAPTCHA_SECRET_KEY' => 'Clé secrète',
+                'RECAPTCHA_SECRET_KEY_HELP' => 'Pour plus d\'informations veuillez vous rendre sur https://developers.google.com/recaptcha',
+                'GENERAL' => 'Général',
+                'USE_BUILT_IN_CSS' => 'Utiliser les CSS natifs',
+                'FILEUPLOAD_PREVENT_SELF' => 'Impossible d\'utiliser \'%s\' en dehors des pages.',
+                'FILEUPLOAD_UNABLE_TO_UPLOAD' => 'Impossible de charger le fichier %s: %s',
+                'FILEUPLOAD_UNABLE_TO_MOVE' => 'Impossible de déplacer le fichier %s vers "%s"',
+                'DROPZONE_CANCEL_UPLOAD' => 'Annuler le chargement',
+                'DROPZONE_CANCEL_UPLOAD_CONFIRMATION' => 'Êtes-vous certain de vouloir annuler ce téléchargement ?',
+                'DROPZONE_DEFAULT_MESSAGE' => 'Glissez vos fichiers ici ou <strong>cliquez dans cette zone</strong>',
+                'DROPZONE_FALLBACK_MESSAGE' => 'Votre navigateur ne prend pas en charge les téléchargements par glissé-déposé.',
+                'DROPZONE_FALLBACK_TEXT' => 'Veuillez utiliser le formulaire de secours ci-dessous pour transférer vos fichiers.',
+                'DROPZONE_FILE_TOO_BIG' => 'Le fichier est trop volumineux ({{filesize}}MiB). Taille maximale de fichier : {{maxFilesize}}MiB.',
+                'DROPZONE_INVALID_FILE_TYPE' => 'Vous ne pouvez pas charger des fichiers de ce type.',
+                'DROPZONE_MAX_FILES_EXCEEDED' => 'Vous ne pouvez plus télécharger de fichiers.',
+                'DROPZONE_REMOVE_FILE' => 'Supprimer le fichier',
+                'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Êtes-vous sûr de vouloir supprimer ce fichier ?',
+                'DROPZONE_RESPONSE_ERROR' => 'Le serveur a répondu avec le code {{statusCode}}.'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Erreur',
+                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
+            ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'L’e-mail n’est pas configuré',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Veuillez configurer une adresse de \'destinataire\' dans les paramètres du Plugin ou dans le formulaire.',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Veuillez configurer une adresse \'d\'expéditeur\' dans les paramètres du Plugin ou dans le formulaire.',
                 'TEST_EMAIL_BODY' => '<h1>E-mail de test</h1><p>Cet e-mail de test est basé sur la configuration suivante :</p>  <p><pre>%1$s</pre></p>',
                 'EMAIL_FOOTER' => 'GetGrav.org'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Erreur',
-                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Nom d’utilisateur',
@@ -6375,41 +6410,6 @@ Ruta: `%2$s`
                 'USE_PARENT_ACL_HELP' => 'Utiliser les règles d’accès parentes si aucune règle n’a été définie',
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => 'Protéger le média d\'une page par une protection par connexion',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Si activé, les médias d\'une page protégée par connexion sera également protégé par un système de connexion et ne pourra pas être visible à moins d\'être connecté.'
-            ],
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Formulaire non validé. Un ou plusieurs champs obligatoires sont manquants.',
-                'NONCE_NOT_VALIDATED' => 'Oups, un problème est survenu. Veuillez vérifier votre saisie et soumettre à nouveau le formulaire.',
-                'FILES' => 'Fichiers chargés',
-                'ALLOW_MULTIPLE' => 'Autoriser plus d\'un fichier',
-                'ALLOW_MULTIPLE_HELP' => 'Permet la sélection de plusieurs fichiers pour chargement.',
-                'DESTINATION' => 'Destination',
-                'DESTINATION_HELP' => 'L\'emplacement où les fichiers doivent être chargés.',
-                'ACCEPT' => 'Autoriser les Types MIME',
-                'ACCEPT_HELP' => 'Liste des Types MIME autorisés au chargement',
-                'ERROR_VALIDATING_CAPTCHA' => 'Erreur lors de la validation du Captcha',
-                'DATA_SUMMARY' => 'Voici le résumé de ce que vous nous avez écrit :',
-                'NO_FORM_DATA' => 'Aucune donnée de formulaire disponible',
-                'RECAPTCHA' => 'ReCaptcha',
-                'RECAPTCHA_SITE_KEY' => 'Clé du site',
-                'RECAPTCHA_SITE_KEY_HELP' => 'Pour plus d\'informations veuillez vous rendre sur https://developers.google.com/recaptcha',
-                'RECAPTCHA_SECRET_KEY' => 'Clé secrète',
-                'RECAPTCHA_SECRET_KEY_HELP' => 'Pour plus d\'informations veuillez vous rendre sur https://developers.google.com/recaptcha',
-                'GENERAL' => 'Général',
-                'USE_BUILT_IN_CSS' => 'Utiliser les CSS natifs',
-                'FILEUPLOAD_PREVENT_SELF' => 'Impossible d\'utiliser \'%s\' en dehors des pages.',
-                'FILEUPLOAD_UNABLE_TO_UPLOAD' => 'Impossible de charger le fichier %s: %s',
-                'FILEUPLOAD_UNABLE_TO_MOVE' => 'Impossible de déplacer le fichier %s vers "%s"',
-                'DROPZONE_CANCEL_UPLOAD' => 'Annuler le chargement',
-                'DROPZONE_CANCEL_UPLOAD_CONFIRMATION' => 'Êtes-vous certain de vouloir annuler ce téléchargement ?',
-                'DROPZONE_DEFAULT_MESSAGE' => 'Glissez vos fichiers ici ou <strong>cliquez dans cette zone</strong>',
-                'DROPZONE_FALLBACK_MESSAGE' => 'Votre navigateur ne prend pas en charge les téléchargements par glissé-déposé.',
-                'DROPZONE_FALLBACK_TEXT' => 'Veuillez utiliser le formulaire de secours ci-dessous pour transférer vos fichiers.',
-                'DROPZONE_FILE_TOO_BIG' => 'Le fichier est trop volumineux ({{filesize}}MiB). Taille maximale de fichier : {{maxFilesize}}MiB.',
-                'DROPZONE_INVALID_FILE_TYPE' => 'Vous ne pouvez pas charger des fichiers de ce type.',
-                'DROPZONE_MAX_FILES_EXCEEDED' => 'Vous ne pouvez plus télécharger de fichiers.',
-                'DROPZONE_REMOVE_FILE' => 'Supprimer le fichier',
-                'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Êtes-vous sûr de vouloir supprimer ce fichier ?',
-                'DROPZONE_RESPONSE_ERROR' => 'Le serveur a répondu avec le code {{statusCode}}.'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -7094,14 +7094,25 @@ Path: `%2$s`
                 'TYPE' => 'Vrsta',
                 'FILE_EXTENSION' => 'Nastavak datoteke'
             ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Formular nije validiran. Jedan ili više traženih polja nedostaju.',
+                'NONCE_NOT_VALIDATED' => 'Ups, došlo je do problema, molimo provjerite svoj unos i pokušajte opet.',
+                'FILES' => 'Upload Fajlova',
+                'ALLOW_MULTIPLE' => 'Dopusti više od jednog fajla',
+                'DESTINATION' => 'Destinacija',
+                'DESTINATION_HELP' => 'Lokacija gdje bi fajlovi trebali biti uploadani',
+                'ACCEPT' => 'Dopušteni MIME Tipovi',
+                'ACCEPT_HELP' => 'Lista dopuštenih MIME Tipova koji su dozvoljeni za upload',
+                'ERROR_VALIDATING_CAPTCHA' => 'Greška pri validiranju Captcha'
             ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Greška',
                 'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
             ],
             'PLUGIN_LOGIN' => [
                 'ACCESS_DENIED' => 'Pristup odbijen...',
@@ -7144,17 +7155,6 @@ Path: `%2$s`
                 'REGISTRATION_FIELDS_HELP' => 'Add the fields that will be added to the user yaml file. Fields not listed here will not be added even if present in the registration form',
                 'REGISTRATION_FIELD_KEY' => 'Ime polja',
                 'OPTIONS' => 'Opcije'
-            ],
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Formular nije validiran. Jedan ili više traženih polja nedostaju.',
-                'NONCE_NOT_VALIDATED' => 'Ups, došlo je do problema, molimo provjerite svoj unos i pokušajte opet.',
-                'FILES' => 'Upload Fajlova',
-                'ALLOW_MULTIPLE' => 'Dopusti više od jednog fajla',
-                'DESTINATION' => 'Destinacija',
-                'DESTINATION_HELP' => 'Lokacija gdje bi fajlovi trebali biti uploadani',
-                'ACCEPT' => 'Dopušteni MIME Tipovi',
-                'ACCEPT_HELP' => 'Lista dopuštenih MIME Tipova koji su dozvoljeni za upload',
-                'ERROR_VALIDATING_CAPTCHA' => 'Greška pri validiranju Captcha'
             ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'oprema',
@@ -7816,6 +7816,18 @@ Path: `%2$s`
                 'FROM' => 'ettől',
                 'TO' => 'eddig'
             ],
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Érvénytelen az űrlap. Egy vagy több kötelező mező nincs kitöltve.',
+                'NONCE_NOT_VALIDATED' => 'Upsz, van egy kis probléma, kérlek nézd át az űrlapot, majd küld el újra.',
+                'FILES' => 'Fájlok Feltöltése',
+                'ALLOW_MULTIPLE' => 'Több fájl feltöltése',
+                'ALLOW_MULTIPLE_HELP' => 'Engedélyezi egyszerre több állomány felöltését.',
+                'DESTINATION' => 'Feltöltés Helye',
+                'DESTINATION_HELP' => 'Ide lesznek feltöltve az állományok',
+                'ACCEPT' => 'Engedélyezett MIME-típusok',
+                'ACCEPT_HELP' => 'A feltölthető állományok MIME-típusainak listája',
+                'ERROR_VALIDATING_CAPTCHA' => 'Hiba lépett fel a Captcha validálása során'
+            ],
             'PLUGIN_LOGIN' => [
                 'ACCESS_DENIED' => 'Hozzáférés megtagadva...',
                 'LOGIN_FAILED' => 'Sikertelen belépés...',
@@ -7837,18 +7849,6 @@ Path: `%2$s`
                 'USERNAME_NOT_AVAILABLE' => '%s nevű felhasználó már létezik, kérlek válassz más felhasználónevet',
                 'PASSWORD_NOT_VALID' => 'A jelszónak tartalmaznia kell legalább egy számot, egy kisbetűt és egy nagybetűt, valamint legalább 8 karakter hosszú kell, hogy legyen',
                 'PASSWORDS_DO_NOT_MATCH' => 'A két jelszó nem egyezik meg. Győzödj meg róla, hogy azonos legyen a kettő'
-            ],
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Érvénytelen az űrlap. Egy vagy több kötelező mező nincs kitöltve.',
-                'NONCE_NOT_VALIDATED' => 'Upsz, van egy kis probléma, kérlek nézd át az űrlapot, majd küld el újra.',
-                'FILES' => 'Fájlok Feltöltése',
-                'ALLOW_MULTIPLE' => 'Több fájl feltöltése',
-                'ALLOW_MULTIPLE_HELP' => 'Engedélyezi egyszerre több állomány felöltését.',
-                'DESTINATION' => 'Feltöltés Helye',
-                'DESTINATION_HELP' => 'Ide lesznek feltöltve az állományok',
-                'ACCEPT' => 'Engedélyezett MIME-típusok',
-                'ACCEPT_HELP' => 'A feltölthető állományok MIME-típusainak listája',
-                'ERROR_VALIDATING_CAPTCHA' => 'Hiba lépett fel a Captcha validálása során'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 cím: %1$s
@@ -8576,14 +8576,6 @@ Elérési út: `%2$s`
                 'FROM' => 'da',
                 'TO' => 'a'
             ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Errore',
-                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
                 'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
@@ -8595,6 +8587,14 @@ Elérési út: `%2$s`
                 'ACCEPT' => 'Tipi di MIME Concessi',
                 'ACCEPT_HELP' => 'Una lista di tipi di MIME che sono permessi per l\'upload',
                 'ERROR_VALIDATING_CAPTCHA' => 'Errore durante la validazione del Captcha'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Errore',
+                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---Titolo: %1$s---# Errore: Frontmatter non valido: \'%2$s\' * *%3$s * * \' \'%4$s \' \'',
             'NICETIME' => [
@@ -11988,14 +11988,33 @@ Caminho: `%2$s`
                 'FROM' => 'de la',
                 'TO' => 'către'
             ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Formularul nu a fost validat. Unul sau mai multe câmpuri sunt goale.',
+                'NONCE_NOT_VALIDATED' => 'Oops a apărut o problemă, vă rugăm verificați datele introduse și trimiteți formularul din nou.',
+                'FILES' => 'Încărcare fișiere',
+                'ALLOW_MULTIPLE' => 'Permiteți mai multe fișiere',
+                'ALLOW_MULTIPLE_HELP' => 'Vă permite să selectați mai multe fișiere pentru încărcare.',
+                'DESTINATION' => 'Destinație',
+                'DESTINATION_HELP' => 'Locația unde vor fi încărcate fișierele.',
+                'ACCEPT' => 'Permite tipuri MIME ',
+                'ACCEPT_HELP' => 'O listă cu tipuri MIME care sunt permise la încărcare.',
+                'ERROR_VALIDATING_CAPTCHA' => 'Eroare la validarea Captcha.',
+                'DATA_SUMMARY' => 'Mai jos aveți un rezumat al mesajului pe care ni l-ați trimis:',
+                'NO_FORM_DATA' => 'Nu e disponibilă nici o dată pentru formular',
+                'RECAPTCHA' => 'ReCaptcha',
+                'RECAPTCHA_SITE_KEY' => 'Cheia pentru Site',
+                'RECAPTCHA_SITE_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați https://developers.google.com/recaptcha',
+                'RECAPTCHA_SECRET_KEY' => 'Cheia secretă pentru Site',
+                'RECAPTCHA_SECRET_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați  https://developers.google.com/recaptcha'
             ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Eroare',
                 'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Nume utilizator',
@@ -12083,25 +12102,6 @@ Caminho: `%2$s`
                 'USE_PARENT_ACL_HELP' => 'Verifică regulie de acces ale părintelui dacă nu sunt specificate alte reguli de acces',
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => ' Protejează media ce aparține paginii de logare ',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Dacă este activată, media ce aparține unei pagini de logare este protejată și nu poate fi accesată decât după logare.'
-            ],
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Formularul nu a fost validat. Unul sau mai multe câmpuri sunt goale.',
-                'NONCE_NOT_VALIDATED' => 'Oops a apărut o problemă, vă rugăm verificați datele introduse și trimiteți formularul din nou.',
-                'FILES' => 'Încărcare fișiere',
-                'ALLOW_MULTIPLE' => 'Permiteți mai multe fișiere',
-                'ALLOW_MULTIPLE_HELP' => 'Vă permite să selectați mai multe fișiere pentru încărcare.',
-                'DESTINATION' => 'Destinație',
-                'DESTINATION_HELP' => 'Locația unde vor fi încărcate fișierele.',
-                'ACCEPT' => 'Permite tipuri MIME ',
-                'ACCEPT_HELP' => 'O listă cu tipuri MIME care sunt permise la încărcare.',
-                'ERROR_VALIDATING_CAPTCHA' => 'Eroare la validarea Captcha.',
-                'DATA_SUMMARY' => 'Mai jos aveți un rezumat al mesajului pe care ni l-ați trimis:',
-                'NO_FORM_DATA' => 'Nu e disponibilă nici o dată pentru formular',
-                'RECAPTCHA' => 'ReCaptcha',
-                'RECAPTCHA_SITE_KEY' => 'Cheia pentru Site',
-                'RECAPTCHA_SITE_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați https://developers.google.com/recaptcha',
-                'RECAPTCHA_SECRET_KEY' => 'Cheia secretă pentru Site',
-                'RECAPTCHA_SECRET_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați  https://developers.google.com/recaptcha'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Titlu: %1$s
@@ -12790,13 +12790,13 @@ Calea: `%2$s`
                 'FROM' => 'от',
                 'TO' => 'к'
             ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
-            ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Ошибка',
                 'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
+            ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -15439,6 +15439,6 @@ Path: `%2$s`
                 6 => 'Chủ Nhật'
             ]
         ],
-        'checksum' => '112650d6730650414af43e6e9347bc81'
+        'checksum' => '1a5b2778d886e0013216e0eb25451aa1'
     ]
 ];

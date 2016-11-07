@@ -9,6 +9,10 @@ portfolio:
       image_link: "#"
     - image: lidotel.jpg
       image_link: "#"
+    - image: clinicaelavila.jpg
+      image_link: "#"
+    - image: sanofi.jpg
+      image_link: "#"
 buttons:
     - text: See More
       url: '#'             
