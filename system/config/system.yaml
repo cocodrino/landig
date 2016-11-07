@@ -106,7 +106,7 @@ errors:
 debugger:
   enabled: true                            # Enable Grav debugger and following settings
   shutdown:
-    close_connection: false                  # Close the connection before calling onShutdown(). false for debugging
+    close_connection: true                  # Close the connection before calling onShutdown(). false for debugging
 
 images:
   default_image_quality: 85                 # Default image quality to use when resampling images (85%)

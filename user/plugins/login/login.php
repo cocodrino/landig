@@ -638,6 +638,8 @@ class LoginPlugin extends Plugin
      */
     public function onFormProcessed(Event $event)
     {
+        $this->grav['debugger']->addMessage("funciona ok!!");
+        dump($event);
         $form = $event['form'];
         $action = $event['action'];
 

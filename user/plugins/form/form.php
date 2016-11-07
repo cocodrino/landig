@@ -49,9 +49,11 @@ class FormPlugin extends Plugin
     {
         return [
             'onPluginsInitialized'   => ['onPluginsInitialized', 0],
-            'onTwigTemplatePaths'    => ['onTwigTemplatePaths', 0]
+            'onTwigTemplatePaths'    => ['onTwigTemplatePaths', 0],
+            'onFormProcessed' => ['onFormProcessed', 0],
         ];
     }
+
 
     /**
      * Initialize forms from cache if possible
@@ -290,7 +292,8 @@ class FormPlugin extends Plugin
         $form = $event['form'];
         $action = $event['action'];
         $params = $event['params'];
-
+        dump($form);
+        dump($action);
         $this->process($form);
 
         switch ($action) {

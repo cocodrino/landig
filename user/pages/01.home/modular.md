@@ -16,9 +16,13 @@ content:
             - _features
             - _portfolio
             - _contact
+process:
+  twig: true
+cache_enable: false
 
 form:
     name: contacto
+    action : /
     fields:
     -
         name: nombre
@@ -50,7 +54,9 @@ form:
     -
         type : submit
         value : Enviar
-    
+
+    process:
+        - whm :
 ---
 
 

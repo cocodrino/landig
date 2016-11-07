@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e37718e3-1eea-4c13-9175-b2a3c2e32cfd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-104.216.4.228.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-204.152.209.149.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-60.173.26.241.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-httpheader.net.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-l.yimg.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-s.yimg.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-unknown.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-www.baidu.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-www.google.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-www.google.pl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-www.haosou.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-www.sogou.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-104.216.4.228.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-204.152.209.149.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-60.173.26.241.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-httpheader.net.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-l.yimg.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-s.yimg.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-unknown.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-www.baidu.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-www.google.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-www.google.pl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-www.haosou.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-www.sogou.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/00cf42b6c586fd2e79685c8b43dbafa0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/01e0c9345bebfea2cf83c20cd554cbb8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/020a899e7aa76c35efdf6e434b9ef6a2.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0a60e7ddb9d36f6053b96c41e33be93d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0a66d226b91aa3103493cc7f237548f5.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0a826fb16e4e5197dad7c159104d2b9a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0daa22a3061e4ee0e225a1e385e30224.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0f1d53d43b9388b97e2a34432bfd56ec.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/11be85a64b6f00b98dab9e82ad10e636.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/12bc5f567a44d81ea32284eb8a8c49df.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/149cf00c10daa2c7ed1e7d3fa93180eb.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/174c6e10ac1ea3f2c9419ee2f14115f4.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1777d5dcb4fa1d2a2bf8614b862b11f0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/17d8334607e9383992a9f1c1ee4675f9.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/19bbc3b9fd8506642b82bef01e07cbb2.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/19d3cf5d2d9c4d31ec48dd0f62c7f1c5.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1a76b39ee085ad3bf34421f0dc5b7505.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1aa99f236818eca5f9ba5d43d61ce77f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1cb9fbdb6d1cfe56169062663f8079c3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/209f87b68b8aa3434f2923520c545ac5.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/21803e4434acf80f80373f877685d1c6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2206859c4b6f100348bf1f28ae534936.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2245ce2bbd112db0a07b8f54a41fc625.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2257e5d49c39d7ebc5429f87ccc006b3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/227e025e69deba4deca8448788b6bcb8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2318c19ee91e405475960511a7f6229b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/242aad36a8c7a03504a82a554b6af965.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/256f6887eb0e1aec8bea7487f6e90e04.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2a83ee2f62acff75b7d3a58a8e2445ac.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2af8565961ff3a20f71763c39809c830.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2d9f21e194c55a7f0da2c9eddbbd187a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2de15b129d6a026c00f8386b25e6f266.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2e00fe180fdb7302c94a4e21c1019c37.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/300cb80eacdd155376af00782dfde7e0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/309d9c44bcbd8ae6bf3b8ac2a12bdddb.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3166b98f256424c77992fb5bb1c04a79.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/31c5df72e8ad20a901c6c595e7f126c3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/320344d8e81a4afc78e95cc2c5d5b36c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/33e6c562a614ace080b48d0d095ecd40.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/37254a5ddaddf6e1092032f115b60f51.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/37ee86da7a7391f2817a52fec5808618.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3824c81ad781913c7fc87173dfaaab9f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/39261b6f3da85b8875b912e21345288e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3a21b5d33910827a7582b44559d18c47.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3a51c35bf182e919253de6ab218729ed.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3a8e406d9af5d7895f40b320d6214bff.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3b33cc498ed4f8450f67c5aeeb1d441c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3b9af2e7abf596797ba4aaae74448c3d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3cc2998cfcdf53b2e4ae6468798c6949.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3ce84dcdfc239ea5b404e0ba5a7e1e7c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3dd0dec2b30a5ae352984b6963366f4a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/41558f7048519044e074f881ab966a97.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4167a78fac04a134aa5ca794db8b2063.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/42e94d9ea7ec0aa74fd3f5cd66f0b29b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/45aa95f6e5b678e6a4f4924db25f57cf.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/45b3349c5528802681b176c3b8a060ba.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/45d4c54cc9e1221de02036596b3d51e1.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/48b42e5523da5150ff6dacbc7496e8aa.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/49a4d2f7de822cf1250667ec852b63e3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/49b484483d805330cefd19f29e819fd6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4b9e515a30c8c5d23286c2f84888581c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4c94a3a1c9ac0ae525dbc195a8258344.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4ec9c200d47baad36418563c9afb9bc6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4f6faf8d4d715b6c00aeb49cfff21c3a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4fe6d50ebe8f478da1a5aac018240777.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/51055a32690a84683f3625bb3dbc2890.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/519d28eab41df854b277311c33b2a10c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/53cce12016f558f67fe22020d2e17f49.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/544397223113c178ebedf6343500151c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/555a8f9fbdf47834aea490fbf1c1fab6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/567f60f1e9350b7200d678460e4e3126.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/57bb3a6c5ed8f893ea773ae53d8d9784.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/59aa1b16e4418ab84e1f5eead271afe4.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/5a855f39cab1d24599dde380da9e65b7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/634b3844612cafb6b1c102ef2959c332.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/644ed51f1bf4fac884b8c23ec55eef6f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/65230e86f72dcdacf36932bea0bedef9.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6679796262a48bbe989c2b3727ac98e1.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/67d2f9f5821feca532c05ad3a0a60424.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/694af41d1ac6439fcf271294cbe60477.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/69cbcafe7b478b900d80d5defb108efe.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6a3a8a65ef3e95910e72e61654d49eff.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6a4bfc71ca6af8163e6b30b248093910.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6bba88ee507915616a25375fc64e22d8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6c07d4b0dda4f699abd5727aef06608c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7073fc2d4f46eb1fc16a7865ceea2cc3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/70d581f4794caf49aacef157d26440d7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/73fb64ead7bf23591e3ff7c28a8dd7d7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/761d19a1c48c397b46810d691ffc2d97.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/76a56bb755823664a3f4fd1bb5193327.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/77b68b43936345463c6d8dfba754a483.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7880612ba898e1ef4a498a484357a020.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/788bdfdf84ce46759eee43c0c0e61c99.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/793796b2f09942950a69908b127c60ce.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7a9a0a6093ec11ed3f7a73bc7236e57d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7b656c239f0aaaf04999059b580b1f5e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7dc3d07ba5b8c5d81819e146a2d0d182.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7f290df67229d2e412048ec77db3fbc9.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/808e0408d8c9a8903ac7ead1c361648c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/80f0aa8cbe6ef57fd0a9ab36131acb1e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/81648cdc6807e96cbc5b5d71ae9e8959.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/82a6a68dc27847eea62a2f6d18179830.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/858cdff8e5d1ae4378d4cac7b913d62c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/85d58a230451518b0c3be05226941383.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/881cf1dd053b7d51280dcf1a1a4cd5e6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/88e012659e32ec983f569a97d05e556f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/88e885f244b9143a538bc3d95ceb2ec7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/8d65588963739de6dabd4696afa4f7ca.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/8f2a1813d22ea8b885b2c1c4a3417ecf.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/90c3bf11fa13eb99ae196f9d5d0bbece.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/94d5c727d4d732eff8e4ce61b57e294f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/952343b4e16e987788a0d26fb04ec1c3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/95f93203152529e89a27e21a3cd94823.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/960b427f3677ae31c4c0afbdbac4605d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/969025d4e87b33b3b91fe2e033445d8d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/973eae16a9c5a94837bc43e8c22c5a9f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/98443002d0bda4a7f4dfde72e3cb8bcb.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/98be482aa47e74774e43e2ca9e922756.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9a17a96c3ed48ffbec22512afae095bb.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9bd662737cfce656956791033ea2073a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9d17b49952055f741a5aa2484f3ef026.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9d8fb400bcbea630a763b8c4ebf11e78.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9f79b8bde86c3263085e1379520a2e2f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a03483509808248698ededc62d69785c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a57e25a3c886d71a758ad49f9d665871.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a59e5c8e239b2404cc73d9a0534c8521.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a763022f26281194ffa752a599643805.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a88282eaec35df6436d983683210e177.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a89dbbe64c363a5feef00c777e79f608.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/aa24f8c9e96850c14503d824d06694ac.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/adee2496617eff145b75fca9764dc6d8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/aeaae4986ccf056256489ea4b3096884.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/afe4fadb482f23c4483e4e53bf4b0223.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b1149143a2e99ec34d04e673077c9d09.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b2adcacfe2a38b77a62ee1fdcef6249f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b38740a5d4bb38795365fc150696b128.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b67b4c9558256f676d0b403d216dbbb2.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b6d95bbf9c45ddec6424fe131ca89bd8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b8d3d6f5260f078751bbff13348206e2.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b9d3905bcd4e17246fcf4e8d840ada81.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bb6cc8720746f02fd4e660c7516c8f7e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bbaf31e5ea4ca08ee3aa9d6ce8ccd872.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bbf3a162d8fec5c347ee125e26f02f3d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/be07d0fe8f1f1a2bbe45f6e23f3f2b80.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/be20367f169f88283a6e864217e88eda.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bf39baed2773f66c58047ee19ae58e1f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c0db8bd2dae8a65ace131e5f18775123.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c4187ccfe409c0137c2bb1daaa76b3a6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c7c5a30882fbd0b1e93fc91702fa14a1.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c7ea0d42d143ddf26cfe41621ad4faf0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/ca81af87712e677a8ad7ca38196de047.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/cc4e54dfc772e219300d06d037506665.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/cc6e39f6351320a804ea22c9887dc4aa.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/cdf84af0920117593be7a7c29b221c5b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d0bce20e51090ffa3415b28c0fdcd4ff.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d102ca9134dbb7ada69042528f4f5e08.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d10365c17b940e34241cf3d71ad03cf7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d4180191496a8ea5c6088f01b12d4be3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d5cff8b77b26ab62d65a58f7953e7098.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d68419fe60421a1cb250ff8dd7273762.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d701e3847e9d81ddd38498c23cd48d61.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d72c92de9a642f9a95d6d34592b01aae.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d73166e584931829bcd78b8ded3c7f63.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d78109c26c29c1393613728e3ff2fbad.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d821de1240f27269b60ab91a876a3766.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/df77fcf735c562c7c592d9edbb98f884.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/dfdc47923bd91ca2967bf75a97b69736.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e0a5c4cb60bb21876f7c4966af05986c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e0c70e6e0720c413b10f708d3b76da32.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e1925fa47d6d30b0746cc716a08c2bb5.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e21915db690a3c53d1b9ccc1e5b59794.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/eba1b6d878301f0dc905196035ed60ef.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/ebe748a5584be5e48447a3a648ebd7fd.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/ee09ab63cfa668e41175446525ee253e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f26fc922592621cba6b9c632cf45e858.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f2a08b2b5c3152982cca981619bf317f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f3b5d57a98e8b144cc0fb985f91c7e6b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f3f93bc849a66d1142b861e8f1310faa.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f795c04cd93273fdedd114ad7d3ec911.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f7f775e98a6d4366b5a1880fa1ec6ed5.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f9370be64f4cf22e2be6b26005fa4ae6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/fc61efe52253d8ee02906f68f2e6101c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/fdd20b3e11bc36eacdcb7bdf42d32267.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/fea1880a07638858625f06486694ab7f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-104.216.4.228.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-204.152.209.149.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-60.173.26.241.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-httpheader.net.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-l.yimg.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-s.yimg.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-unknown.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-www.baidu.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-www.google.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-www.haosou.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-www.sogou.com.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/problem-check-g-e7e1f5f5" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/062249916a5cedbb1957c8c4556718f0.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/062249916a5cedbb1957c8c4556718f0.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/0f2a7a81155c939e99a6a07e5e5bd52f.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/0f2a7a81155c939e99a6a07e5e5bd52f.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/93391f0b926accb178f71b29bb45e41c.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/93391f0b926accb178f71b29bb45e41c.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/960e8cd73610135f225a142b77835278.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/960e8cd73610135f225a142b77835278.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/99bb0c755669a3eddbc8fa08d3724878.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/99bb0c755669a3eddbc8fa08d3724878.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/a9a47bd10cb73cad2d7646d3097343bb.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/a9a47bd10cb73cad2d7646d3097343bb.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/f2638c650c72fb310305fcf4f96f74b4.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/f2638c650c72fb310305fcf4f96f74b4.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/gpm/92/5b32363334316337363137626636313031376536376362366133393830343666635d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/92/5b32363334316337363137626636313031376536376362366133393830343666635d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/gpm/ac/5b39366336376430336631656130633734316235393366663662666237623166355d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/ac/5b39366336376430336631656130633734316235393366663662666237623166355d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/gpm/b7/5b32666331613665363266376130383331373963353237366233353161323030305d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/b7/5b32666331613665363266376130383331373963353237366233353161323030305d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/grav.log" afterPath="$PROJECT_DIR$/logs/grav.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/daily.json" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/totals.json" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/system.yaml" afterPath="$PROJECT_DIR$/system/config/system.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/config/system.yaml" afterPath="$PROJECT_DIR$/user/config/system.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/modular.md" afterPath="$PROJECT_DIR$/user/pages/01.home/modular.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/form.php" afterPath="$PROJECT_DIR$/user/plugins/form/form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/login/login.php" afterPath="$PROJECT_DIR$/user/plugins/login/login.php" />
+    </list>
+    <ignored path="landig.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="landig" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="phpinfo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/form/form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modular.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="correomasivo.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="correomasivo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="99" column="15" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/login/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13104">
+              <caret line="638" column="35" selection-start-line="638" selection-start-column="20" selection-end-line="638" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/login/classes/Login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-504">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/email/email.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1239">
+              <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/phpinfo.php" />
+        <option value="$PROJECT_DIR$/user/pages/01.home/modular.md" />
+        <option value="$PROJECT_DIR$/user/config/system.yaml" />
+        <option value="$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php" />
+        <option value="$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="e467bdfb-45e7-48c7-b131-3e9398e32417" name="localhost" port="2020" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-19" />
+    <option name="y" value="120" />
+    <option name="width" value="1144" />
+    <option name="height" value="896" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Documentos/proyectos/scala/fb" value="1468540574301" />
+        <entry key="$USER_HOME$/Documentos/proyectos/scala/job_new" value="1465255777742" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e37718e3-1eea-4c13-9175-b2a3c2e32cfd" name="Default" comment="" />
+      <created>1478475443924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1478475443924</updated>
+      <workItem from="1478475467692" duration="2171000" />
+      <workItem from="1478480775778" duration="6313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8484000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-19" y="120" width="1144" height="896" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4521625" sideWeight="0.50729924" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4521625" sideWeight="0.49270073" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/phpinfo.php</url>
+          <line>2</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/form/form.php</url>
+          <line>291</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/login/login.php</url>
+          <line>640</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/login/login.php</url>
+          <line>641</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/login/login.php</url>
+          <line>642</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
+          <line>62</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
+          <line>63</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
+          <line>64</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/login/classes/Login.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/login/classes/Login.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/login/login.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/login/classes/Login.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13104">
+          <caret line="638" column="35" selection-start-line="638" selection-start-column="20" selection-end-line="638" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/login/classes/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/email/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/form/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="99" column="15" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

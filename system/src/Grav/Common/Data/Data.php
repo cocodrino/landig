@@ -20,7 +20,7 @@ class Data implements DataInterface, \ArrayAccess, \Countable, ExportInterface
     use NestedArrayAccessWithGetters, Countable, Export;
 
     protected $gettersVariable = 'items';
-    protected $items;
+     public $items;
 
     /**
      * @var Blueprints

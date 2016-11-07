@@ -97,12 +97,12 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: '0'
+  display: true
   log: true
 debugger:
   enabled: true
   shutdown:
-    close_connection: true
+    close_connection: false
   twig: true
 images:
   default_image_quality: 85
