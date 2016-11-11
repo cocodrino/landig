@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1478542019,
-    'checksum' => '76713635a132f21440ee60e6b92042de',
+    'timestamp' => 1478806598,
+    'checksum' => '63c2aa052115ca30c3842e7d4da51933',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1478524438
+                'modified' => 1478715604
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -27,7 +27,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1478542016
+                'modified' => 1478806368
             ]
         ],
         'system/config' => [
@@ -68,6 +68,14 @@ return [
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1478524438
+            ],
+            'plugins/uikitifier' => [
+                'file' => 'user/plugins/uikitifier/uikitifier.yaml',
+                'modified' => 1478545015
+            ],
+            'plugins/recaptchacontact' => [
+                'file' => 'user/plugins/recaptchacontact/recaptchacontact.yaml',
+                'modified' => 1478806520
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
@@ -163,6 +171,52 @@ return [
                 'routes' => [
                     404 => '/error'
                 ]
+            ],
+            'uikitifier' => [
+                'enabled' => true,
+                'always_load' => true,
+                'mode' => 'staging',
+                'load_uikit' => true,
+                'style' => 'gradient',
+                'customizer' => [
+                    'enabled' => false,
+                    'name' => NULL
+                ],
+                'load_all' => false,
+                'load_component_accordion' => false,
+                'load_component_autocomplete' => true,
+                'load_component_cover' => true,
+                'load_component_datepicker' => false,
+                'load_component_dotnav' => false,
+                'load_component_form_advanced' => false,
+                'load_component_form_file' => false,
+                'load_component_form_password' => false,
+                'load_component_form_select' => false,
+                'load_component_grid' => true,
+                'load_component_htmleditor' => false,
+                'load_component_lightbox' => false,
+                'load_component_nestable' => false,
+                'load_component_notify' => false,
+                'load_component_pagination' => false,
+                'load_component_placeholder' => false,
+                'load_component_progress' => false,
+                'load_component_search' => true,
+                'load_component_slideshow' => false,
+                'load_component_slideshow-fx' => false,
+                'load_component_slidenav' => false,
+                'load_component_sortable' => false,
+                'load_component_sticky' => true,
+                'load_component_timepicker' => false,
+                'load_component_tooltip' => true,
+                'load_component_upload' => false
+            ],
+            'recaptchacontact' => [
+                'enabled' => true,
+                'default_lang' => 'en',
+                'disable_css' => false,
+                'inject_template' => true,
+                'grecaptcha_sitekey' => '6LenmAsUAAAAAFwZ1pSDVH4qHDWHN0f5sF2tCalg',
+                'grecaptcha_secret' => '6LenmAsUAAAAAFmsWV9ZrA2zmXWOlA3VYbHMWaa1'
             ],
             'email' => [
                 'enabled' => true,
@@ -518,12 +572,12 @@ return [
             'social' => [
                 0 => [
                     'label' => 'Twitter',
-                    'url' => '#',
+                    'url' => 'https://twitter.com/netquatro',
                     'icon' => 'twitter'
                 ],
                 1 => [
                     'label' => 'Facebook',
-                    'url' => '#',
+                    'url' => 'https://www.facebook.com/netquatro/',
                     'icon' => 'facebook'
                 ]
             ],

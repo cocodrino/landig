@@ -17,7 +17,7 @@ html, html a {
     padding: 3px 0 3px 0 !important;
 }
 #banner .inner {
-    background: rgba(52, 27, 43, 0.022 ) !important;
+    background: rgba(52, 27, 43, 0.0 ) !important;
 }
 
 #banner .inner header h2 {
@@ -32,12 +32,18 @@ html, html a {
     text-transform: uppercase !important;
 }
 
+#banner .inner p {
+    font-size: 23px;
+}
+
 #banner .inner header h2 {
     letter-spacing: 0.08em;
 }
-.wrapper.style2 {
+
+/*.wrapper.style2 {
     background-color: #4d80b2;
-}
+}*/
+
 .problemas-box ol{
     list-style: inherit !important;  
 }
@@ -46,15 +52,23 @@ ol {
     list-style: inherit !important;
 }
 
-.wrapper.style2 {
+/*.wrapper.style2 {
     background-color: #4d80b2 !important;
-}
+}*/
 
 
 .section-signup{
-    margin:8% !important;
-    background-color: white !important;
+    margin:12% !important;
+    background-color: #4d80b2 !important;
+/*    background-color: #92a54d!important;*/
+    color: white;
     padding: 40px !important;
+    padding: 60px 60px 34px 60px !important;
+
+    background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 25em, 25em;
 }
 
 .espaciado{
@@ -78,4 +92,112 @@ img.logo-empresa {
     display: block;
     width: auto;
     max-height: 95px;
+}
+
+#net4email{
+    width: 410px;
+}
+
+/*ul.featured-icons {
+    cursor: default;
+    margin: -0.75em 0 0 0;
+    opacity: 1;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+}*/
+
+ul.featured-icons {
+    cursor: default;
+    margin: 9.25em 1px 0 49px;
+    opacity: 1;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+ul.featured-icons li {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 24%;
+    margin-left: 16%;
+}
+
+span.label {
+    font-size: 18px;
+    position: relative;
+    color: #505050;
+    top: -8px;
+}
+
+img.icons_icon {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons_box{
+    padding-left:  6%;
+}
+
+.icon_box {
+    padding-top: 10px;
+    padding-bottom: 21px;
+    text-align: center;
+}
+
+.portfolio_box{
+    padding: 33px !important;
+}
+
+.form-field.vertical {
+    color: white;
+    padding-bottom: 22px;
+}
+
+.alert.notices.green {
+    background-color: #292865;
+    padding: 21px;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea {
+    -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: none;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    color: inherit;
+    display: block;
+    padding: 0.75em;
+    text-decoration: none;
+    width: 100%;
+    outline: 0;
+}
+
+ul.buttons.vertical {
+    display: none;
+}
+
+#iconos_container {
+    background-color: #dadada !important;
+    color: #5a5a5a  !important;
+}
+
+.feature_icon{
+    color:#000779;
+}
+
+.icons-label {
+    font-size: 17px;
+    position: relative;
+    top: -8px;
 }

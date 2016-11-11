@@ -3,6 +3,31 @@ title: "<strong>Cada dia</strong> cientos de empresas pierden dinero por problem
 #buttons:
 #    - text: Conozca mas
 #      url: '#'
+
+
+icons:
+    - label: Gasto de Energia
+      icon: 001energía.png
+    - label: Mucho Spam Entrante
+      icon: 02Spam entrante.png 
+    - label: Correos que Rebotan
+      icon: 003Rebotes.png 
+    - label: Soporte Deficiente
+      icon: 008soporte.png 
+    - label: Demora en la Entrega
+      icon: 005demora en correos..png  
+    - label: Blacklists
+      icon: 006listas negras..png 
+    - label: Tamano Limitado Correo
+      icon: 007tamaño de correos.png   
+    - label: Inestabilidad
+      icon: 009Inestabilidad..png  
+    - label: Corros que no Llegan
+      icon: 04no llegan mail.png
+    - label: Poca Seguridad Transmisiones
+      icon: 010Filtrar y pocos controles..png
+      
+
 ---
 
 Estas son las 10 principales causas originadas por un mal servicio de correo

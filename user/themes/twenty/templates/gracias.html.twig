@@ -1,0 +1,13 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+    {{ content }}
+
+    <div class="alert">{{ form.message }}</div>
+    <p>La información ha sido enviada...un representante de netquatro se comunicará con usted
+    </p>
+
+    {% include "forms/data.html.twig" %}
+
+{% endblock %}

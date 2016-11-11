@@ -4,6 +4,7 @@ menu: Home
 onpage_menu: true
 body_class: index
 header_class: alt
+recaptchacontact: true
 content:
     items: @self.modular
     order:
@@ -26,37 +27,77 @@ form:
     fields:
     -
         name: nombre
-        label: Nombre
+        label: Nombre completo:
         placeholder: 'Ingrese ambos nombres'
         autofocus: 'on'
         autocomplete: 'on'
         type: text
         
     -
-        name: apellido
-        label: Apellido
+        name: empresa
+        label: Empresa:
         type: text
         
     -
         name: correo
-        label: Correo Electrónico
+        label: Correo Electrónico:
         type: email
         validate:
             required : true
         
     - 
       name: telefono
-      label: Telefono
+      label: Telefono Oficina:
       placeholder: 212-222-2222
       type: text
-    
+      
+    - 
+      name: celular
+      label: Telefono Celular:
+      placeholder: (41X) 212-222-2222
+      type: text
+      
+    - 
+      name: requerimiento
+      label: Requerimiento de su solicitud:
+      type: text
+      
+    -
+      type: select
+      name: requerimiento
+      label: Requerimiento de su solicitud
+      options:
+        default: Solicitar Informacion
+        demo: Solicitar un demo del Producto
+      
+    - 
+      name: g-recaptcha-response
+      label: Captcha
+      type: captcha
+      recaptcha_site_key: 6LenmAsUAAAAAFwZ1pSDVH4qHDWHN0f5sF2tCalg
+      recaptcha_not_validated: 'Captcha not valid!'
+      validate:
+       required: true
+      
+    -  
+      name: comentario
+      label: Comentarios:
+      placeholder: comentario,preguntas o dudas con respecto a net4email
+      autofocus: true
+      type: textarea
+ 
+        
     buttons:
     -
         type : submit
         value : Enviar
 
     process:
-        - whm :
+        - captcha:
+            recatpcha_secret: 6LenmAsUAAAAAFmsWV9ZrA2zmXWOlA3VYbHMWaa1
+        - whm :  
+        - message: La información ha sido enviada...un representante de netquatro se comunicará con usted
+       
 ---
 
 

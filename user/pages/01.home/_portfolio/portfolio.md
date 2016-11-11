@@ -1,7 +1,7 @@
 ---
 title: Usted esta en buenas manos <strong>buenas manos</strong>
 portfolio:
-    - image: turaser1.jpg
+    - image: vivax1.jpg
       image_link: "#"
     - image: segurosmercantil.png
       image_link: "#"

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1478542020,
-    'checksum' => '1a5b2778d886e0013216e0eb25451aa1',
+    'timestamp' => 1478806374,
+    'checksum' => '6b73a76203bb16ee1de05fee9de1e035',
     'files' => [
         'system/languages' => [
             'ar' => [
@@ -126,6 +126,10 @@ return [
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
                 'modified' => 1478524438
+            ],
+            'plugins/recaptchacontact' => [
+                'file' => 'user/plugins/recaptchacontact/languages.yaml',
+                'modified' => 1478806368
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
@@ -3026,6 +3030,51 @@ Sti: `%2$s`
                 'ERROR' => 'Fehler',
                 'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
             ],
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Kontaktiere mich',
+                'SUBJECT' => '[Grav] Kontaktanfrage',
+                'RECIPIENT' => 'name@provider.de',
+                'ADMIN' => [
+                    'HEADING' => 'Kontaktformular',
+                    'TOGGLE' => [
+                        'HELP' => 'Falls aktiviert wird das Kontaktformular auf diese Seite angezeigt.'
+                    ],
+                    'RECIPIENT' => [
+                        'LABEL' => 'E-Mail senden an',
+                        'HELP' => 'Empfohlen: Sendet das Formular an die angegebene Adresse.'
+                    ],
+                    'SUBJECT' => [
+                        'LABEL' => 'Betreff',
+                        'HELP' => 'Optional: Falls angegeben, überschreibt es den Betreff der E-Mail.'
+                    ]
+                ],
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Name',
+                        'PLACEHOLDER' => 'Dein Name'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'E-Mail',
+                        'PLACEHOLDER' => 'Deine E-Mail'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Nachricht',
+                        'PLACEHOLDER' => 'Deine Nachricht'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Antispam',
+                        'PLACEHOLDER' => 'Dieses Feld für Antispam-Bots frei lassen.'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Abschicken'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Vielen Dank! Deine Nachricht wurde erfolgreich versendet.',
+                    'ERROR' => 'Oops! Mit der Übertragung gab es ein Problem. Bitte versuche es erneut.',
+                    'FAIL' => 'Oops! Versenden der Nachricht fehlgeschlagen.'
+                ]
+            ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
@@ -4214,6 +4263,51 @@ Pfad: `%2$s`
                 'ERROR' => 'Error',
                 'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
             ],
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Contact me',
+                'SUBJECT' => 'New contact from Grav site!',
+                'RECIPIENT' => 'hello@example.com',
+                'ADMIN' => [
+                    'HEADING' => 'Contact Form',
+                    'TOGGLE' => [
+                        'HELP' => 'If enabled, the form will display on this page.'
+                    ],
+                    'RECIPIENT' => [
+                        'LABEL' => 'Send Emails To',
+                        'HELP' => 'Recommended: the form will send the contact email to this address'
+                    ],
+                    'SUBJECT' => [
+                        'LABEL' => 'Email Subject',
+                        'HELP' => 'Optional: if entered, the email will contain this subject.'
+                    ]
+                ],
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Name',
+                        'PLACEHOLDER' => 'Add your name'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'Email',
+                        'PLACEHOLDER' => 'Add your email'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Message',
+                        'PLACEHOLDER' => 'Add your message'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Antispam',
+                        'PLACEHOLDER' => 'Please leave this field empty for Antispam'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Submit'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Thank You! Your message has been sent.',
+                    'ERROR' => 'Oops! There was a problem with your submission. Please complete the form and try again.',
+                    'FAIL' => 'Oops! Something went wrong and we couldn\'t send your message.'
+                ]
+            ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Email not configured',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Please configure a \'to\' address in the Email Plugin settings, or in the form',
@@ -5035,6 +5129,37 @@ Path: `%2$s`
                 'RECAPTCHA_SITE_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha',
                 'RECAPTCHA_SECRET_KEY' => 'Secret key',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha'
+            ],
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Contacta conmigo',
+                'SUBJECT' => '¡Nuevo contacto desde tu sitio GRAV!',
+                'RECIPIENT' => 'hello@example.com',
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Nombre',
+                        'PLACEHOLDER' => 'Añade tu nombre'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'Email',
+                        'PLACEHOLDER' => 'Añade tu email'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Mensaje',
+                        'PLACEHOLDER' => 'Añade tu mensaje'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Antispam',
+                        'PLACEHOLDER' => 'Por favor, deja este campo libre para bloquear el Spam'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Enviar'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => '¡Gracias! Tu mensaje ha sido enviado.',
+                    'ERROR' => '¡Uy! Hubo un problema con el envío. Por favor, rellena el formulario de nuevo.',
+                    'FAIL' => '¡Uy! Algo salió mal y no se pudo enviar el mensaje.'
+                ]
             ],
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
@@ -6315,6 +6440,37 @@ Ruta: `%2$s`
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Erreur',
                 'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
+            ],
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Me contacter',
+                'SUBJECT' => 'Nouveau contact du site de Grav !',
+                'RECIPIENT' => 'hello@exemple.com',
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Nom',
+                        'PLACEHOLDER' => 'Ajoutez votre nom'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'E-mail',
+                        'PLACEHOLDER' => 'Ajoutez votre e-mail'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Message',
+                        'PLACEHOLDER' => 'Ajoutez votre message'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Antispam',
+                        'PLACEHOLDER' => 'Veuillez laisser ce champ vide pour l\'antispam'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Envoyer'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Merci ! Votre message a bien été envoyé.',
+                    'ERROR' => 'Oups ! Une erreur s\'est produite lors de l\'envoi. Veuillez renseigner à nouveau le formulaire et réessayer.',
+                    'FAIL' => 'Oups ! Une erreur s\'est produite et il a été impossible d\'envoyer votre message.'
+                ]
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'L’e-mail n’est pas configuré',
@@ -8591,6 +8747,51 @@ Elérési út: `%2$s`
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Errore',
                 'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
+            ],
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Contattami',
+                'SUBJECT' => 'Nuovo contatto dal sito Grav!',
+                'RECIPIENT' => 'hello@example.com',
+                'ADMIN' => [
+                    'HEADING' => 'Modulo di contatto',
+                    'TOGGLE' => [
+                        'HELP' => 'Se abilitato, il modulo verrà visualizzato in questa pagina.'
+                    ],
+                    'RECIPIENT' => [
+                        'LABEL' => 'Inviare email a',
+                        'HELP' => 'Consigliato: il modulo invierà l\'email di contatto a questo indirizzo'
+                    ],
+                    'SUBJECT' => [
+                        'LABEL' => 'Oggetto dell\'email',
+                        'HELP' => 'Opzionale: se inserito, l\'email conterrà questo oggetto.'
+                    ]
+                ],
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Nome',
+                        'PLACEHOLDER' => 'Aggiungi il tuo nome'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'Email',
+                        'PLACEHOLDER' => 'Aggiungi la tua email'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Messaggio',
+                        'PLACEHOLDER' => 'Aggiungi il tuo messaggio'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Antispam',
+                        'PLACEHOLDER' => 'Si prega di lasciare il campo vuoto per Antispam'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Invia'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Grazie! Il tuo messaggio è stato inviato.',
+                    'ERROR' => 'Oh! C\'è stato un problema durante l\'invio. Si prega di compilare il modulo e riprovare.',
+                    'FAIL' => 'Oh! Qualcosa non ha funzionato perciò il tuo messaggio non potrà essere inviato.'
+                ]
             ],
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
@@ -12794,6 +12995,51 @@ Calea: `%2$s`
                 'ERROR' => 'Ошибка',
                 'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
             ],
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Контакты',
+                'SUBJECT' => 'Новый контакт от Grav!',
+                'RECIPIENT' => 'hello@example.com',
+                'ADMIN' => [
+                    'HEADING' => 'Контактная форма',
+                    'TOGGLE' => [
+                        'HELP' => 'Если активирована, то форма будет отображаться на данной странице.'
+                    ],
+                    'RECIPIENT' => [
+                        'LABEL' => 'Адрес получателя',
+                        'HELP' => 'Обязателен: форма будет посылать контактный адрес электронной почты по этому адресу'
+                    ],
+                    'SUBJECT' => [
+                        'LABEL' => 'Тема письма',
+                        'HELP' => 'Не обязательна: если введена, то email будет содержать данную тему.'
+                    ]
+                ],
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Имя',
+                        'PLACEHOLDER' => 'Укажите имя'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'Email',
+                        'PLACEHOLDER' => 'Укажите email'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Сообщение',
+                        'PLACEHOLDER' => 'Укажите сообщение'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Антиспам',
+                        'PLACEHOLDER' => 'Пожалуйста, оставьте данное поле пустым для Антиспама'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Отправить'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Спасибо! Ваше сообщение было отправлено.',
+                    'ERROR' => 'Упс! Произошла ошибка при отправке вашего сообщения. Пожалуйста заполните форму и попробуйте снова.',
+                    'FAIL' => 'Упс! Что-то пошло не так и мы не можем отправить ваше сообщение.'
+                ]
+            ],
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
@@ -15439,6 +15685,6 @@ Path: `%2$s`
                 6 => 'Chủ Nhật'
             ]
         ],
-        'checksum' => '1a5b2778d886e0013216e0eb25451aa1'
+        'checksum' => '6b73a76203bb16ee1de05fee9de1e035'
     ]
 ];

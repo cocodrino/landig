@@ -17,7 +17,7 @@ features:
       text: Nunca sera victima de una falla en la conexion de internet
       
     - icon: plug
-      title: Disponibilidad de Energia 100%
+      title: Disponibilidad de Energía 100%
       text: Sin caidas electricas que afecten su servicio
       
     - icon: trash
@@ -29,7 +29,7 @@ features:
       text: Acceda desde cualquier parte del mundo y en cualquier momento
       
     - icon: eye
-      title: Supervicion
+      title: Supervisión
       text: Controle y supervise los correos que se procesan en su compañia
       
     - icon: cloud
@@ -49,7 +49,7 @@ features:
       text: Soporte dispuesto a ayudarlo de inmediato con cualquier inquietud y problema
       
     - icon: exchange
-      title: Sincronizacion
+      title: Sincronización
       text: Sincronize sus contactos,calendarios y tareas
       
     - icon: mobile-phone

@@ -19,11 +19,11 @@ description: 'Write an awesome description for your new site here. You can edit 
 social:
   -
     label: Twitter
-    url: '#'
+    url: 'https://twitter.com/netquatro'
     icon: twitter
   -
     label: Facebook
-    url: '#'
+    url: 'https://www.facebook.com/netquatro/'
     icon: facebook
 copyright:
   line1: Netquatro

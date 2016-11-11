@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1478542018,
-    'checksum' => '6ed520de4c0658dc254819986c2f4ca5',
+    'timestamp' => 1478806373,
+    'checksum' => '1a0679eb8d042d1618c71b2a7d908764',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -42,6 +42,14 @@ return [
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
                 'modified' => 1478524438
+            ],
+            'plugins/uikitifier' => [
+                'file' => 'user/plugins/uikitifier/blueprints.yaml',
+                'modified' => 1478545015
+            ],
+            'plugins/recaptchacontact' => [
+                'file' => 'user/plugins/recaptchacontact/blueprints.yaml',
+                'modified' => 1478806368
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
@@ -2243,6 +2251,551 @@ return [
                 'name' => 'plugins.error.routes.404',
                 'validation' => 'strict'
             ],
+            'plugins.uikitifier' => [
+                'form' => [
+                    'validation' => 'loose'
+                ],
+                'type' => '_root',
+                'form_field' => false
+            ],
+            'plugins.uikitifier.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin status',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.enabled',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.mode' => [
+                'type' => 'toggle',
+                'label' => 'Production Mode',
+                'options' => [
+                    'production' => 'Production',
+                    'staging' => 'Staging'
+                ],
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.uikitifier.mode',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_uikit' => [
+                'type' => 'toggle',
+                'label' => 'Load UI Kit?',
+                'highlight' => true,
+                'default' => true,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_uikit',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.style' => [
+                'type' => 'toggle',
+                'label' => 'Style',
+                'options' => [
+                    'flat' => 'Flat',
+                    'almost-flat' => 'Almost-Flat',
+                    'gradient' => 'Gradient'
+                ],
+                'validate' => [
+                    'type' => 'string'
+                ],
+                'name' => 'plugins.uikitifier.style',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.cover_section' => [
+                'type' => 'section',
+                'underline' => true,
+                'name' => 'plugins.uikitifier.cover_section',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_accordion' => [
+                'type' => 'toggle',
+                'label' => 'Accordion',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_accordion',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_autocomplete' => [
+                'type' => 'toggle',
+                'label' => 'Autocomplete',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_autocomplete',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_cover' => [
+                'type' => 'toggle',
+                'label' => 'Cover',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_cover',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_datepicker' => [
+                'type' => 'toggle',
+                'label' => 'Date Picker',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_datepicker',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_dotnav' => [
+                'type' => 'toggle',
+                'label' => 'Dot Nav',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_dotnav',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_form_advanced' => [
+                'type' => 'toggle',
+                'label' => 'Form Advanced',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_form_advanced',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_form_file' => [
+                'type' => 'toggle',
+                'label' => 'Form File',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_form_file',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_form_password' => [
+                'type' => 'toggle',
+                'label' => 'Form Password',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_form_password',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_form_select' => [
+                'type' => 'toggle',
+                'label' => 'Form Select',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_form_select',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_grid' => [
+                'type' => 'toggle',
+                'label' => 'Grid',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_grid',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_htmleditor' => [
+                'type' => 'toggle',
+                'label' => 'HTML Editor',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_htmleditor',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_lightbox' => [
+                'type' => 'toggle',
+                'label' => 'Lightbox',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_lightbox',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_nestable' => [
+                'type' => 'toggle',
+                'label' => 'Nestable',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_nestable',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_notify' => [
+                'type' => 'toggle',
+                'label' => 'Notify',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_notify',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_pagination' => [
+                'type' => 'toggle',
+                'label' => 'Pagination',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_pagination',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_placeholder' => [
+                'type' => 'toggle',
+                'label' => 'Placeholder',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_placeholder',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_progress' => [
+                'type' => 'toggle',
+                'label' => 'Progress',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_progress',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_search' => [
+                'type' => 'toggle',
+                'label' => 'Search',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_search',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_slideshow' => [
+                'type' => 'toggle',
+                'label' => 'Slideshow',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_slideshow',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_slideshow-fx' => [
+                'type' => 'toggle',
+                'label' => 'Slideshow FX',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_slideshow-fx',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_slidenav' => [
+                'type' => 'toggle',
+                'label' => 'Slidenav',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_slidenav',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_sortable' => [
+                'type' => 'toggle',
+                'label' => 'Sortable',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_sortable',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_sticky' => [
+                'type' => 'toggle',
+                'label' => 'Sticky',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_sticky',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_timepicker' => [
+                'type' => 'toggle',
+                'label' => 'Time Picker',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_timepicker',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_tooltip' => [
+                'type' => 'toggle',
+                'label' => 'Tooltip',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_tooltip',
+                'validation' => 'loose'
+            ],
+            'plugins.uikitifier.load_component_upload' => [
+                'type' => 'toggle',
+                'label' => 'Upload',
+                'highlight' => true,
+                'default' => false,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.uikitifier.load_component_upload',
+                'validation' => 'loose'
+            ],
+            'plugins.recaptchacontact' => [
+                'form' => [
+                    'validation' => 'strict'
+                ],
+                'type' => '_root',
+                'form_field' => false
+            ],
+            'plugins.recaptchacontact.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin status',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.recaptchacontact.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.recaptchacontact.default_lang' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'Default language',
+                'default' => 'en',
+                'validate' => [
+                    'type' => 'text'
+                ],
+                'name' => 'plugins.recaptchacontact.default_lang',
+                'validation' => 'strict'
+            ],
+            'plugins.recaptchacontact.disable_css' => [
+                'type' => 'toggle',
+                'label' => 'Disable Plugin-specific CSS',
+                'highlight' => 0,
+                'default' => 0,
+                'options' => [
+                    1 => 'True',
+                    0 => 'False'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.recaptchacontact.disable_css',
+                'validation' => 'strict'
+            ],
+            'plugins.recaptchacontact.inject_template' => [
+                'type' => 'toggle',
+                'label' => 'Inject Contact Template Automatically',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'True',
+                    0 => 'False'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.recaptchacontact.inject_template',
+                'validation' => 'strict'
+            ],
+            'plugins.recaptchacontact.grecaptcha_sitekey' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'reCAPTCHA Sitekey',
+                'default' => '',
+                'validate' => [
+                    'type' => 'text'
+                ],
+                'name' => 'plugins.recaptchacontact.grecaptcha_sitekey',
+                'validation' => 'strict'
+            ],
+            'plugins.recaptchacontact.grecaptcha_secret' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'reCAPTCHA Secret key',
+                'default' => '',
+                'validate' => [
+                    'type' => 'text'
+                ],
+                'name' => 'plugins.recaptchacontact.grecaptcha_secret',
+                'validation' => 'strict'
+            ],
             'plugins.email' => [
                 'form' => [
                     'validation' => 'loose'
@@ -3020,6 +3573,47 @@ return [
                     'routes' => [
                         404 => 'plugins.error.routes.404'
                     ]
+                ],
+                'uikitifier' => [
+                    'enabled' => 'plugins.uikitifier.enabled',
+                    'mode' => 'plugins.uikitifier.mode',
+                    'load_uikit' => 'plugins.uikitifier.load_uikit',
+                    'style' => 'plugins.uikitifier.style',
+                    'cover_section' => 'plugins.uikitifier.cover_section',
+                    'load_component_accordion' => 'plugins.uikitifier.load_component_accordion',
+                    'load_component_autocomplete' => 'plugins.uikitifier.load_component_autocomplete',
+                    'load_component_cover' => 'plugins.uikitifier.load_component_cover',
+                    'load_component_datepicker' => 'plugins.uikitifier.load_component_datepicker',
+                    'load_component_dotnav' => 'plugins.uikitifier.load_component_dotnav',
+                    'load_component_form_advanced' => 'plugins.uikitifier.load_component_form_advanced',
+                    'load_component_form_file' => 'plugins.uikitifier.load_component_form_file',
+                    'load_component_form_password' => 'plugins.uikitifier.load_component_form_password',
+                    'load_component_form_select' => 'plugins.uikitifier.load_component_form_select',
+                    'load_component_grid' => 'plugins.uikitifier.load_component_grid',
+                    'load_component_htmleditor' => 'plugins.uikitifier.load_component_htmleditor',
+                    'load_component_lightbox' => 'plugins.uikitifier.load_component_lightbox',
+                    'load_component_nestable' => 'plugins.uikitifier.load_component_nestable',
+                    'load_component_notify' => 'plugins.uikitifier.load_component_notify',
+                    'load_component_pagination' => 'plugins.uikitifier.load_component_pagination',
+                    'load_component_placeholder' => 'plugins.uikitifier.load_component_placeholder',
+                    'load_component_progress' => 'plugins.uikitifier.load_component_progress',
+                    'load_component_search' => 'plugins.uikitifier.load_component_search',
+                    'load_component_slideshow' => 'plugins.uikitifier.load_component_slideshow',
+                    'load_component_slideshow-fx' => 'plugins.uikitifier.load_component_slideshow-fx',
+                    'load_component_slidenav' => 'plugins.uikitifier.load_component_slidenav',
+                    'load_component_sortable' => 'plugins.uikitifier.load_component_sortable',
+                    'load_component_sticky' => 'plugins.uikitifier.load_component_sticky',
+                    'load_component_timepicker' => 'plugins.uikitifier.load_component_timepicker',
+                    'load_component_tooltip' => 'plugins.uikitifier.load_component_tooltip',
+                    'load_component_upload' => 'plugins.uikitifier.load_component_upload'
+                ],
+                'recaptchacontact' => [
+                    'enabled' => 'plugins.recaptchacontact.enabled',
+                    'default_lang' => 'plugins.recaptchacontact.default_lang',
+                    'disable_css' => 'plugins.recaptchacontact.disable_css',
+                    'inject_template' => 'plugins.recaptchacontact.inject_template',
+                    'grecaptcha_sitekey' => 'plugins.recaptchacontact.grecaptcha_sitekey',
+                    'grecaptcha_secret' => 'plugins.recaptchacontact.grecaptcha_secret'
                 ],
                 'email' => [
                     'enabled' => 'plugins.email.enabled',

@@ -1,31 +1,35 @@
-<section class="wrapper style3 container special">
+<section class="wrapper style3 container special portfolio_box">
 
     <header class="major">
         <h2>{{ page.header.title }}</h2>
+        <h3>Nuestros clientes nos respaldan</h3>
     </header>
+    <ul class="icons_box uk-grid">
 
-    {% for row in page.header.portfolio|batch(2) %}
-        <div class="row">
-            {% for item in row %}
-                <div class="6u 12u(narrower)">
-                    <section>
-                        <a href="{{ item.image_link }}" class="image featured"><img src="{{ page.media[item.image].url }}" alt="" /></a>
-                        <header>
-                            <h3>{{ item.title }}</h3>
-                        </header>
-                        <p>{{ item.text }}</p>
-                    </section>
-                </div>
-            {% endfor %}
-        </div>
-    {% endfor %}
+        {% for item in page.header.portfolio %}
+            <li class="
+                uk-width-large-1-5
+                 uk-width-medium-1-3
+                 uk-width-small-1-3">
+                <section>
+                    <a href="{{ item.image_link }}" class="image featured"><img
+                                src="{{ page.media[item.image].url }}" alt=""/></a>
+                    <header>
+                        <h3>{{ item.title }}</h3>
+                    </header>
+                    <p>{{ item.text }}</p>
+                </section>
+            </li>
 
-    <footer class="major">
+        {% endfor %}
+    </ul>
+
+{#    <footer class="major">
         <ul class="buttons">
             {% for button in page.header.buttons %}
                 <li><a href="{{ button.url }}" class="button">{{ button.text }}</a></li>
             {% endfor %}
         </ul>
-    </footer>
+    </footer>#}
 
 </section>    
