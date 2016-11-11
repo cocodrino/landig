@@ -2,41 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e37718e3-1eea-4c13-9175-b2a3c2e32cfd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/plugins/correomasivo/pruebawhm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/gracias.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/modular/_features.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/modular/_icons.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/modular/_portfolio.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/problem-check-g-ff15b7d1" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/gpm/92/5b32363334316337363137626636313031376536376362366133393830343666635d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/92/5b32363334316337363137626636313031376536376362366133393830343666635d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/gpm/ac/5b39366336376430336631656130633734316235393366663662666237623166355d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/ac/5b39366336376430336631656130633734316235393366663662666237623166355d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/gpm/b7/5b32666331613665363266376130383331373963353237366233353161323030305d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/b7/5b32666331613665363266376130383331373963353237366233353161323030305d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/grav.log" afterPath="$PROJECT_DIR$/logs/grav.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/5dcdb03473020adf85a72756f84094de.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/5dcdb03473020adf85a72756f84094de.yaml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/daily.json" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/totals.json" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/config/site.yaml" afterPath="$PROJECT_DIR$/user/config/site.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/_banner/banner.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_banner/banner.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/_bottom/bottom.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_bottom/bottom.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/_contact/form.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_contact/form.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/features.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/features.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/_icons/icons.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_icons/icons.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/_portfolio/portfolio.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_portfolio/portfolio.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/modular.md" afterPath="$PROJECT_DIR$/user/pages/01.home/modular.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php" afterPath="$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/form.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/form.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/twenty/assets/css/custom.css" afterPath="$PROJECT_DIR$/user/themes/twenty/assets/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/twenty/assets/css/main.css" afterPath="$PROJECT_DIR$/user/themes/twenty/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/twenty/templates/modular/banner.html.twig" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/modular/banner.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/twenty/templates/modular/features.html.twig" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/modular/features.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/twenty/templates/modular/form.html.twig" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/modular/form.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/twenty/templates/modular/icons.html.twig" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/modular/icons.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/twenty/templates/modular/portfolio.html.twig" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/modular/portfolio.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/twenty/templates/partials/header.html.twig" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/partials/header.html.twig" />
     </list>
     <ignored path="landig.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="378">
-                <caret line="96" column="73" selection-start-line="96" selection-start-column="70" selection-end-line="96" selection-end-column="70" />
+              <first_editor relative-caret-position="-931">
+                <caret line="14" column="36" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -74,19 +50,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/pages/01.home/_banner/banner.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="68" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="site.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/config/site.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-124">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -130,22 +100,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/header.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="icons.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/pages/01.home/_icons/icons.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="64">
-                <caret line="17" column="52" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+                <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -161,7 +121,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="106">
-                <caret line="39" column="97" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+                <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -175,12 +135,12 @@
       <file leaf-file-name="correomasivo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="155" column="39" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+            <state relative-caret-position="1462">
+              <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
               <folding>
                 <element signature="e#30#53#0#PHP" expanded="true" />
-                <marker date="1478804054524" expanded="true" signature="5716:6336" placeholder="..." />
-                <marker date="1478804054524" expanded="true" signature="5812:6329" placeholder="..." />
+                <marker date="1478874236303" expanded="true" signature="5715:6335" placeholder="..." />
+                <marker date="1478874236303" expanded="true" signature="5811:6328" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -211,13 +171,10 @@
         <option value="$PROJECT_DIR$/user/themes/twenty/assets/css/main.css" />
         <option value="$PROJECT_DIR$/user/themes/twenty/templates/modular/icons.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/twenty/templates/modular/features.html.twig" />
-        <option value="$PROJECT_DIR$/user/config/site.yaml" />
         <option value="$PROJECT_DIR$/user/themes/twenty/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/user/pages/01.home/_portfolio/portfolio.md" />
         <option value="$PROJECT_DIR$/user/plugins/correomasivo/pruebawhm.php" />
-        <option value="$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php" />
         <option value="$PROJECT_DIR$/user/plugins/recaptchacontact/recaptchacontact.yaml" />
-        <option value="$PROJECT_DIR$/user/pages/01.home/modular.md" />
         <option value="$PROJECT_DIR$/user/pages/01.home/_icons/icons.md" />
         <option value="$PROJECT_DIR$/user/pages/01.home/_features/features.md" />
         <option value="$PROJECT_DIR$/user/pages/01.home/_bottom/bottom.md" />
@@ -225,6 +182,9 @@
         <option value="$PROJECT_DIR$/user/themes/twenty/templates/partials/header.html.twig" />
         <option value="$PROJECT_DIR$/user/plugins/form/templates/modular/form.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/twenty/templates/modular/form.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/01.home/modular.md" />
+        <option value="$PROJECT_DIR$/user/config/site.yaml" />
+        <option value="$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php" />
       </list>
     </option>
   </component>
@@ -248,8 +208,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1355" />
-    <option name="y" value="168" />
+    <option name="x" value="1358" />
+    <option name="y" value="222" />
     <option name="width" value="1221" />
     <option name="height" value="741" />
   </component>
@@ -752,15 +712,15 @@
       <workItem from="1478543045885" duration="20392000" />
       <workItem from="1478635383794" duration="3813000" />
       <workItem from="1478714795452" duration="11133000" />
-      <workItem from="1478802433884" duration="6057000" />
+      <workItem from="1478802433884" duration="7275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53733000" />
+    <option name="totallyTimeSpent" value="54951000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1355" y="168" width="1221" height="741" extended-state="0" />
+    <frame x="1358" y="222" width="1221" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -905,14 +865,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/plugins/form/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4811">
-          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -934,8 +886,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#30#53#0#PHP" expanded="true" />
-            <marker date="1478804054524" expanded="true" signature="5716:6336" placeholder="..." />
-            <marker date="1478804054524" expanded="true" signature="5812:6329" placeholder="..." />
+            <marker date="1478874236303" expanded="true" signature="5715:6335" placeholder="..." />
+            <marker date="1478874236303" expanded="true" signature="5811:6328" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1211,14 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/config/site.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/plugins/recaptchacontact/recaptchacontact.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1245,7 +1189,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="102">
-            <caret line="6" column="68" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1272,7 +1216,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="64">
-            <caret line="17" column="52" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1286,7 +1230,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="106">
-            <caret line="39" column="97" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1328,14 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/modular/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="120" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1344,14 +1280,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/system/config/site.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/site.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/modular/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="120" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="155" column="39" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+        <state relative-caret-position="1462">
+          <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
           <folding>
             <element signature="e#30#53#0#PHP" expanded="true" />
-            <marker date="1478804054524" expanded="true" signature="5716:6336" placeholder="..." />
-            <marker date="1478804054524" expanded="true" signature="5812:6329" placeholder="..." />
+            <marker date="1478874236303" expanded="true" signature="5715:6335" placeholder="..." />
+            <marker date="1478874236303" expanded="true" signature="5811:6328" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1359,8 +1319,8 @@
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="378">
-            <caret line="96" column="73" selection-start-line="96" selection-start-column="70" selection-end-line="96" selection-end-column="70" />
+          <first_editor relative-caret-position="-931">
+            <caret line="14" column="36" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />

@@ -79,9 +79,9 @@ class CorreomasivoPlugin extends Plugin {
                 $url = "http://netquatro.co/miportal/includes/api.php"; # URL to WHMCS API file
                 $results = null;
 
-                $postfields["username"] = 'superadminnetq25';
+                $postfields["username"] = 'chocquib_queen';
                 $postfields["accesskey"] = 'qu3rtiP4ssC0ntr0lCL4v3';
-                $postfields["password"] = md5('18yooDp9cUKfYdWVpPa');
+                $postfields["password"] = md5('JeKoM/|#@wEhO>49gSi(COEXPF');
                 $postfields["action"] = "addclient"; #action performed by the [[API:Functions]]
 
                 list($nombres, $apellidos) = $this->split_name($data->items['nombre']);
@@ -124,15 +124,15 @@ class CorreomasivoPlugin extends Plugin {
 
 
                     $rcpt = array(
-                        /* array(
+                        array(
                              'name' => 'Bernardo',
                              'email' => 'bernardo.murillo@netquatro.com'
                          ),
                          array(
                              'name' => 'Daniel',
                              'email' => 'daniel.perez@netquatro.com'
-                         ),*/
-                        array(
+                         ),
+                       array(
                             'name' => null,
                             'email' => 'carlos.laguna@netquatro.com'
                         )

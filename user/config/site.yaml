@@ -1,12 +1,12 @@
-title: Net4Cloud
+title: Net4Email
 author:
-  name: 'Joe Bloggs'
-  email: joe@test.com
+  name: 'desarrollo'
+  email: soporte@netquatro.com
 taxonomies:
   - category
   - tag
 metadata:
-  description: 'Twenty is a free and responsive theme for **Grav**. Its a port of Twenty template by HTML5 UP.'
+  description: 'correo masivo en venezuela pagado en bolivares, miles de correos para tu campaña'
 summary:
   enabled: true
   format: short
@@ -15,7 +15,7 @@ summary:
 blog:
   route: /blog
 email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
+description: 'Deseas enviar miles o millones de correos en campañas de correo pagando en bolivares, contrata net4email'
 social:
   -
     label: Twitter
@@ -32,23 +32,3 @@ copyright:
   url_label: 'Netquatro'
 logo:
   text1: Netquatro
-submenu:
-  -
-    text: 'Dolore Sed'
-    link: '#'
-  -
-    text: Consequat
-    link: '#'
-  -
-    text: 'Lorem Magna'
-    link: '#'
-  -
-    text: 'Sed Magna'
-    link: '#'
-  -
-    text: 'Ipsum Nisl'
-    link: '#'
-buttons:
-  -
-    text: 'Sign Up'
-    link: '#'

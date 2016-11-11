@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1478806598,
-    'checksum' => '63c2aa052115ca30c3842e7d4da51933',
+    'timestamp' => 1478874033,
+    'checksum' => '03f7b1d2e2a6de0971052aa31d8d450d',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1478715604
+                'modified' => 1478874022
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -544,17 +544,17 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Net4Cloud',
+            'title' => 'Net4Email',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'desarrollo',
+                'email' => 'soporte@netquatro.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Twenty is a free and responsive theme for **Grav**. Its a port of Twenty template by HTML5 UP.'
+                'description' => 'correo masivo en venezuela pagado en bolivares, miles de correos para tu campaña'
             ],
             'summary' => [
                 'enabled' => true,
@@ -568,7 +568,7 @@ return [
                 'route' => '/blog'
             ],
             'email' => 'your-email@domain.com',
-            'description' => 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.',
+            'description' => 'Deseas enviar miles o millones de correos en campañas de correo pagando en bolivares, contrata net4email',
             'social' => [
                 0 => [
                     'label' => 'Twitter',
@@ -589,34 +589,6 @@ return [
             ],
             'logo' => [
                 'text1' => 'Netquatro'
-            ],
-            'submenu' => [
-                0 => [
-                    'text' => 'Dolore Sed',
-                    'link' => '#'
-                ],
-                1 => [
-                    'text' => 'Consequat',
-                    'link' => '#'
-                ],
-                2 => [
-                    'text' => 'Lorem Magna',
-                    'link' => '#'
-                ],
-                3 => [
-                    'text' => 'Sed Magna',
-                    'link' => '#'
-                ],
-                4 => [
-                    'text' => 'Ipsum Nisl',
-                    'link' => '#'
-                ]
-            ],
-            'buttons' => [
-                0 => [
-                    'text' => 'Sign Up',
-                    'link' => '#'
-                ]
             ]
         ],
         'streams' => [

@@ -1,5 +1,5 @@
 ---
-title: myproject
+title: Net4Email
 menu: Home
 onpage_menu: true
 body_class: index
@@ -69,16 +69,7 @@ form:
       options:
         default: Solicitar Informacion
         demo: Solicitar un demo del Producto
-      
-    - 
-      name: g-recaptcha-response
-      label: Captcha
-      type: captcha
-      recaptcha_site_key: 6LenmAsUAAAAAFwZ1pSDVH4qHDWHN0f5sF2tCalg
-      recaptcha_not_validated: 'Captcha not valid!'
-      validate:
-       required: true
-      
+        
     -  
       name: comentario
       label: Comentarios:
@@ -93,8 +84,6 @@ form:
         value : Enviar
 
     process:
-        - captcha:
-            recatpcha_secret: 6LenmAsUAAAAAFmsWV9ZrA2zmXWOlA3VYbHMWaa1
         - whm :  
         - message: La información ha sido enviada...un representante de netquatro se comunicará con usted
        
