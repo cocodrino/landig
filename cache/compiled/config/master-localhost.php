@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1478874033,
-    'checksum' => '03f7b1d2e2a6de0971052aa31d8d450d',
+    'timestamp' => 1479346830,
+    'checksum' => 'b4d90beeeae4e81422c25e3fe6954f0a',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1478874022
+                'modified' => 1478878029
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -27,7 +27,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1478806368
+                'modified' => 1479346368
             ]
         ],
         'system/config' => [
@@ -45,75 +45,93 @@ return [
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1478524438
+                'modified' => 1478877898
             ]
         ],
         'user/plugins' => [
-            'plugins/form' => [
-                'file' => 'user/plugins/form/form.yaml',
+            'plugins/email' => [
+                'file' => 'user/plugins/email/email.yaml',
                 'modified' => 1478524438
-            ],
-            'plugins/correomasivo' => [
-                'file' => 'user/plugins/correomasivo/correomasivo.yaml',
-                'modified' => 1478541774
-            ],
-            'plugins/devtools' => [
-                'file' => 'user/plugins/devtools/devtools.yaml',
-                'modified' => 1478524438
-            ],
-            'plugins/admin' => [
-                'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1478524438
-            ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1478524438
-            ],
-            'plugins/uikitifier' => [
-                'file' => 'user/plugins/uikitifier/uikitifier.yaml',
-                'modified' => 1478545015
             ],
             'plugins/recaptchacontact' => [
                 'file' => 'user/plugins/recaptchacontact/recaptchacontact.yaml',
                 'modified' => 1478806520
             ],
-            'plugins/email' => [
-                'file' => 'user/plugins/email/email.yaml',
+            'plugins/error' => [
+                'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1478524438
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1478524438
             ],
+            'plugins/admin' => [
+                'file' => 'user/plugins/admin/admin.yaml',
+                'modified' => 1478524438
+            ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
                 'modified' => 1478524438
+            ],
+            'plugins/correomasivo' => [
+                'file' => 'user/plugins/correomasivo/correomasivo.yaml',
+                'modified' => 1478541774
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/form.yaml',
+                'modified' => 1478524438
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/devtools.yaml',
+                'modified' => 1478524438
+            ],
+            'plugins/uikitifier' => [
+                'file' => 'user/plugins/uikitifier/uikitifier.yaml',
+                'modified' => 1478545015
             ]
         ]
     ],
     'data' => [
         'plugins' => [
-            'form' => [
+            'email' => [
                 'enabled' => true,
-                'built_in_css' => true,
-                'files' => [
-                    'multiple' => false,
-                    'limit' => 10,
-                    'filesize' => 5,
-                    'destination' => 'self@',
-                    'avoid_overwriting' => false,
-                    'random_name' => false,
-                    'accept' => [
-                        0 => 'image/*'
+                'from' => 'correosmasivos@netquatro.com',
+                'from_name' => 'correo masivo',
+                'to' => 'correosmasivos@netquatro.com',
+                'to_name' => 'correo masivo',
+                'mailer' => [
+                    'engine' => 'mail',
+                    'smtp' => [
+                        'server' => 'mail.netquatro.com',
+                        'port' => 25,
+                        'encryption' => 'none',
+                        'user' => 'correosmasivos',
+                        'password' => 'correosmasivos0q*'
+                    ],
+                    'sendmail' => [
+                        'bin' => '/usr/sbin/sendmail'
                     ]
+                ],
+                'content_type' => 'text/html',
+                'debug' => true
+            ],
+            'recaptchacontact' => [
+                'enabled' => true,
+                'default_lang' => 'en',
+                'disable_css' => false,
+                'inject_template' => true,
+                'grecaptcha_sitekey' => '6LenmAsUAAAAAFwZ1pSDVH4qHDWHN0f5sF2tCalg',
+                'grecaptcha_secret' => '6LenmAsUAAAAAFmsWV9ZrA2zmXWOlA3VYbHMWaa1'
+            ],
+            'error' => [
+                'enabled' => true,
+                'routes' => [
+                    404 => '/error'
                 ]
             ],
-            'correomasivo' => [
+            'problems' => [
                 'enabled' => true,
-                'text_var' => NULL
-            ],
-            'devtools' => [
-                'enabled' => true
+                'built_in_css' => true
             ],
             'admin' => [
                 'enabled' => true,
@@ -166,84 +184,6 @@ return [
                     ]
                 ]
             ],
-            'error' => [
-                'enabled' => true,
-                'routes' => [
-                    404 => '/error'
-                ]
-            ],
-            'uikitifier' => [
-                'enabled' => true,
-                'always_load' => true,
-                'mode' => 'staging',
-                'load_uikit' => true,
-                'style' => 'gradient',
-                'customizer' => [
-                    'enabled' => false,
-                    'name' => NULL
-                ],
-                'load_all' => false,
-                'load_component_accordion' => false,
-                'load_component_autocomplete' => true,
-                'load_component_cover' => true,
-                'load_component_datepicker' => false,
-                'load_component_dotnav' => false,
-                'load_component_form_advanced' => false,
-                'load_component_form_file' => false,
-                'load_component_form_password' => false,
-                'load_component_form_select' => false,
-                'load_component_grid' => true,
-                'load_component_htmleditor' => false,
-                'load_component_lightbox' => false,
-                'load_component_nestable' => false,
-                'load_component_notify' => false,
-                'load_component_pagination' => false,
-                'load_component_placeholder' => false,
-                'load_component_progress' => false,
-                'load_component_search' => true,
-                'load_component_slideshow' => false,
-                'load_component_slideshow-fx' => false,
-                'load_component_slidenav' => false,
-                'load_component_sortable' => false,
-                'load_component_sticky' => true,
-                'load_component_timepicker' => false,
-                'load_component_tooltip' => true,
-                'load_component_upload' => false
-            ],
-            'recaptchacontact' => [
-                'enabled' => true,
-                'default_lang' => 'en',
-                'disable_css' => false,
-                'inject_template' => true,
-                'grecaptcha_sitekey' => '6LenmAsUAAAAAFwZ1pSDVH4qHDWHN0f5sF2tCalg',
-                'grecaptcha_secret' => '6LenmAsUAAAAAFmsWV9ZrA2zmXWOlA3VYbHMWaa1'
-            ],
-            'email' => [
-                'enabled' => true,
-                'from' => 'correosmasivos@netquatro.com',
-                'from_name' => 'correo masivo',
-                'to' => 'correosmasivos@netquatro.com',
-                'to_name' => 'correo masivo',
-                'mailer' => [
-                    'engine' => 'mail',
-                    'smtp' => [
-                        'server' => 'mail.netquatro.com',
-                        'port' => 25,
-                        'encryption' => 'none',
-                        'user' => 'correosmasivos',
-                        'password' => 'correosmasivos0q*'
-                    ],
-                    'sendmail' => [
-                        'bin' => '/usr/sbin/sendmail'
-                    ]
-                ],
-                'content_type' => 'text/html',
-                'debug' => true
-            ],
-            'problems' => [
-                'enabled' => true,
-                'built_in_css' => true
-            ],
             'login' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -283,6 +223,66 @@ return [
                     'timeout' => 604800,
                     'name' => 'grav-rememberme'
                 ]
+            ],
+            'correomasivo' => [
+                'enabled' => true,
+                'text_var' => NULL
+            ],
+            'form' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'files' => [
+                    'multiple' => false,
+                    'limit' => 10,
+                    'filesize' => 5,
+                    'destination' => 'self@',
+                    'avoid_overwriting' => false,
+                    'random_name' => false,
+                    'accept' => [
+                        0 => 'image/*'
+                    ]
+                ]
+            ],
+            'devtools' => [
+                'enabled' => true
+            ],
+            'uikitifier' => [
+                'enabled' => true,
+                'always_load' => true,
+                'mode' => 'staging',
+                'load_uikit' => true,
+                'style' => 'gradient',
+                'customizer' => [
+                    'enabled' => false,
+                    'name' => NULL
+                ],
+                'load_all' => false,
+                'load_component_accordion' => false,
+                'load_component_autocomplete' => true,
+                'load_component_cover' => true,
+                'load_component_datepicker' => false,
+                'load_component_dotnav' => false,
+                'load_component_form_advanced' => false,
+                'load_component_form_file' => false,
+                'load_component_form_password' => false,
+                'load_component_form_select' => false,
+                'load_component_grid' => true,
+                'load_component_htmleditor' => false,
+                'load_component_lightbox' => false,
+                'load_component_nestable' => false,
+                'load_component_notify' => false,
+                'load_component_pagination' => false,
+                'load_component_placeholder' => false,
+                'load_component_progress' => false,
+                'load_component_search' => true,
+                'load_component_slideshow' => false,
+                'load_component_slideshow-fx' => false,
+                'load_component_slidenav' => false,
+                'load_component_sortable' => false,
+                'load_component_sticky' => true,
+                'load_component_timepicker' => false,
+                'load_component_tooltip' => true,
+                'load_component_upload' => false
             ]
         ],
         'media' => [
@@ -551,7 +551,11 @@ return [
             ],
             'taxonomies' => [
                 0 => 'category',
-                1 => 'tag'
+                1 => 'tag',
+                2 => 'mail',
+                3 => 'correo',
+                4 => 'venezuela',
+                5 => 'bolivares'
             ],
             'metadata' => [
                 'description' => 'correo masivo en venezuela pagado en bolivares, miles de correos para tu campaña'
@@ -721,7 +725,7 @@ return [
             ],
             'twig' => [
                 'cache' => false,
-                'debug' => true,
+                'debug' => false,
                 'auto_reload' => true,
                 'autoescape' => false,
                 'undefined_functions' => true,
@@ -749,14 +753,14 @@ return [
                 'log' => true
             ],
             'debugger' => [
-                'enabled' => true,
+                'enabled' => false,
                 'shutdown' => [
                     'close_connection' => false
                 ],
                 'twig' => true
             ],
             'images' => [
-                'default_image_quality' => 85,
+                'default_image_quality' => 100,
                 'cache_all' => false,
                 'cache_perms' => '0755',
                 'debug' => false,

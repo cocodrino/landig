@@ -77,7 +77,7 @@ cache:
 
 twig:
   cache: true                               # Set to true to enable Twig caching
-  debug: true                               # Enable Twig debug
+  debug: false                               # Enable Twig debug
   auto_reload: true                         # Refresh cache on changes
   autoescape: false                         # Autoescape Twig vars
   undefined_functions: true                 # Allow undefined functions
@@ -104,12 +104,12 @@ errors:
   log: true                                 # Log errors to /logs folder
 
 debugger:
-  enabled: true                            # Enable Grav debugger and following settings
+  enabled: false                            # Enable Grav debugger and following settings
   shutdown:
     close_connection: true                  # Close the connection before calling onShutdown(). false for debugging
 
 images:
-  default_image_quality: 85                 # Default image quality to use when resampling images (85%)
+  default_image_quality: 100                # Default image quality to use when resampling images (85%)
   cache_all: false                          # Cache all image by default
   cache_perms: '0755'                       # MUST BE IN QUOTES!! Default cache folder perms. Usually '0755' or '0775'
   debug: false                              # Show an overlay over images indicating the pixel depth of the image when working with retina for example

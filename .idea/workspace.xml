@@ -2,17 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e37718e3-1eea-4c13-9175-b2a3c2e32cfd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/problem-check-g-ff15b7d1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/008bdefbd60f4de86979b0f54c4fe805.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/04b602a0b47d1a199c8b6e549434048b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/05f0fea365b1ab454e6a775e9f234f0c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/062249916a5cedbb1957c8c4556718f0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/091e07529adee536d08608514c0e5d6b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0b8c5d9387073d7b886b7f02babd454f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0c51f41f7ca4c01018c1d81883d7081f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0c6b21a0859e8c6971b7ba8ce038cf19.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0cb285b4679537cc4acc4f30ba6a2319.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0e21b8e86012189843067de88b5de0b9.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/0f2a7a81155c939e99a6a07e5e5bd52f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/11393f6443af9879f6f3e358b529c655.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1187702124d92422e9f12c4e06f5ab83.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1196ea93f7aba86b353b97df0997b162.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/14cc291c4ab8af36c026d032d62d4332.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/176430395e1bad87a2fef4df70a224f0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/18e5b4444a863d504fff886f2cd0110a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1bc363741f04e00bfcf6c3a7582fb079.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/1cc7cce50dcc6cea7767e0363e2cb72b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/20270fa73538168e361422f193851c61.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/268ffc1015b828df39b28163675c8e68.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2c9009dcad79affbd681c5005d7b48e1.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/2cdd52a44680ed1555100a51044e7690.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/37c98b09f0f412fd0816039d3cdf2d67.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/38b05f6728f15dba60652591cf49d616.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3a27c1965f18a1e6bce40aa58c2c0b5b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3a9b35440984ec39f88ca4669314bb44.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3c212bbf6014922426e845b0898dc1f8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/3c2dc8465a7817db0ac5650677a83c7b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/40002d6c5130781a5a19527c5693aa48.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/42466415945c508bfdd107f4c449f01f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/42e40401d9c4ccf179c150615a7c7bbc.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/45decd65e1127ad90fae9057f9a77db0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/47d8e4ed1b28f033795a2f70a9f46110.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/48a04242399214e032668dc24e7e168e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4aba46e8101e5a87343299d5cb8422a3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4afd4f51f10e976867f67033ccb262c7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4b4eea103ae4ec78f3c0d2b94efa8277.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4f1187ea023e6f448b76d69131cb28bc.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/4ff51511ed95c0ccb6318d7fe768fd39.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/51651ec1cae28d17819ff9bc2ffc28b0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/524cba1f4ffb5016666198024929e745.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/5592550f868cba42c00317b389b2e922.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/55f6c1bdcf33f3667b65ce6feab9a114.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/56cba4a8fa5163fe434e9dd98cabcc8a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/5b55e5b80a586c23a844915de44aca47.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/5dcdb03473020adf85a72756f84094de.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/5e801485426f980cf54350c23342210f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/60d9aa8614b002a298268d62aabb0e61.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/641d092a35e844631bc45cdb0559f185.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6576afd3ff5dfe0a78b982181c154eb4.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/676d6ee30147d0c5249b15d49f6d7b87.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/6e72d652af501ea43aa3fff766c1ca69.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/70be3525004715a172e1edb2ffe23c82.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/76169c915e4cc7fb307b9970036e91b3.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7985e0b744c9e92966234f5c57878e15.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/7ce54ff113824679ebc3544c413f8063.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/82df0666ff6fceca61b3428b9e040f81.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/8d1178c8ccbbfe3ef2ef388157193cde.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/8d77cbcf552d2e8db5573e2e6a7aed41.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/8df9dce9bd950f417cbeba581d69b273.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/8fdb4fce842ea377d3069c6f3eba769d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/91112dd3d095aefabc854a2ff0f3471a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/92bb71dfe7e139368f070c1a3e4c8739.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/93391f0b926accb178f71b29bb45e41c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9470d57a7d71471441c1c8b5046133a0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/960e8cd73610135f225a142b77835278.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/96396b0232878a2eb71a7d5d80d9bebc.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/99bb0c755669a3eddbc8fa08d3724878.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/9eb8ef4bc4e8adc6a32f76b9bb747d6d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a2af48b1083f138ac317f5fe6aa88a24.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a3de4464f8828f795c7874c56e7fb8bf.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a4c0c45cd2750bb10f99c5c77cf6efaa.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a59f01470ac93b13d5a39b8ce67a358e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a8e247ab747bdda85058b68fae2bb631.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a9a47bd10cb73cad2d7646d3097343bb.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/a9c15dea5c1176f63efe379f3c4018af.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b1b51a6e1af941cb4a60b5fc8f4d64d0.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b2f8cffb755c5d5640156d8c8175023f.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b448c50f0761506eace264a7c80c9561.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/b8fb10d4899787430ae99e30be862198.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/baa962283c49b7f0e621fb606e9bb49e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bc4195480126cd11a19b1ef3c69d7c81.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bd42b0ba4ece300d8fe7ee493b12cf50.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/bdc2481631d502a1c794529b42c9a49e.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c3e8f94c7b909e2b9d1a46296f68d153.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c5c0c8e514ca51e6cf9efd32d339ce60.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/c6d988aaf5d8ce2ac931088d468b63c7.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/ce535fef4da7aa7ebba1dc2e5cb02de8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d03864bbf17fc762523ecd54c6e7703b.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d3e55697c4edfbb267e3c276b78befe6.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d3fbdc1d2d6612dcc670b9c19d275d22.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d8c78a1c588281fae65c10d70ea354ff.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/d997fec4d29699e4a4d18e559b456aa9.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/dc066e3eb4101789c33aeae9fc5fed4c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/dc1564871374bee947ccd7af9b27247d.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/dcfaf8f4be6a40d4770dd3138ca4fcee.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/ddec082547d539f3ddf3fc028f08ca89.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/de9709f4608466e8974ff0f043cb17ee.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e5518596fb258d691564490c0a2ee89c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/e8c76184b360d885645fcc2d7aebc024.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/ecfd6224c5366f18d41a60aff435bd38.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/ed303c4af3a1b4d51b7fc4b7e50616b2.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/eff1923ee792a3be5c18a37c265b8e56.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f2638c650c72fb310305fcf4f96f74b4.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f640bfa6d67bc05ae7f6336499861c6c.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f67cdd59550a9567e0d8ced822815d64.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f82a355a8cd10638d1bc0f443f3dfe6a.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/f911ff20fb782fb6d9ac5bef320e5060.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/fc48c9e6427e3c3cf48872459c4fadf5.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/files/ff816e423fbb9b036479042baab02bd8.yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/gpm/92/5b32363334316337363137626636313031376536376362366133393830343666635d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/gpm/ac/5b39366336376430336631656130633734316235393366663662666237623166355d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/gpm/b7/5b32666331613665363266376130383331373963353237366233353161323030305d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/route.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/twenty/images/bannerQ.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/images/favicon.png" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/images/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/5dcdb03473020adf85a72756f84094de.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/5dcdb03473020adf85a72756f84094de.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/grav.log" afterPath="$PROJECT_DIR$/logs/grav.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/daily.json" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/totals.json" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prueba.php" afterPath="$PROJECT_DIR$/prueba.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/system.yaml" afterPath="$PROJECT_DIR$/system/config/system.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/config/site.yaml" afterPath="$PROJECT_DIR$/user/config/site.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/config/system.yaml" afterPath="$PROJECT_DIR$/user/config/system.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/modular.md" afterPath="$PROJECT_DIR$/user/pages/01.home/modular.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/admin.php" afterPath="$PROJECT_DIR$/user/plugins/admin/admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php" afterPath="$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/email/email.php" afterPath="$PROJECT_DIR$/user/plugins/email/email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/form.php" afterPath="$PROJECT_DIR$/user/plugins/form/form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/captcha/captcha.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/captcha/captcha.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/login/login.php" afterPath="$PROJECT_DIR$/user/plugins/login/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/recaptchacontact/templates/partials/recaptchaform.html.twig" afterPath="$PROJECT_DIR$/user/plugins/recaptchacontact/templates/partials/recaptchaform.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/twenty/templates/partials/base.html.twig" afterPath="$PROJECT_DIR$/user/themes/twenty/templates/partials/base.html.twig" />
     </list>
     <ignored path="landig.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +153,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -34,12 +162,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="modular.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modular.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-931">
-                <caret line="14" column="36" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <first_editor relative-caret-position="340">
+                <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -50,78 +178,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/config/site.yaml">
+      <file leaf-file-name="prueba.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prueba.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="567">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/banner.html.twig">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/login/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="68" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="525">
+              <caret line="616" column="9" selection-start-line="616" selection-start-column="9" selection-end-line="616" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/partials/header.html.twig">
+      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/form/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="52" column="25" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="29" />
+            <state relative-caret-position="239">
+              <caret line="303" column="10" selection-start-line="303" selection-start-column="10" selection-end-line="303" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/modular/form.html.twig">
+      <file leaf-file-name="captcha.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/forms/fields/captcha/captcha.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="120" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="477">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/form.html.twig">
+      <file leaf-file-name="recaptchaform.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/recaptchacontact/templates/partials/recaptchaform.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="82" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="168">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icons.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/pages/01.home/_icons/icons.md">
+      <file leaf-file-name="email.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/plugins/email/email.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/partials/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="72" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/recaptchacontact/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="64">
-                <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="features.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/pages/01.home/_features/features.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="106">
-                <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -135,12 +267,12 @@
       <file leaf-file-name="correomasivo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
+            <state relative-caret-position="2478">
+              <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
               <folding>
                 <element signature="e#30#53#0#PHP" expanded="true" />
-                <marker date="1478874236303" expanded="true" signature="5715:6335" placeholder="..." />
-                <marker date="1478874236303" expanded="true" signature="5811:6328" placeholder="..." />
+                <marker date="1479310624245" expanded="true" signature="5733:6353" ph="..." />
+                <marker date="1479310624245" expanded="true" signature="5829:6346" ph="..." />
               </folding>
             </state>
           </provider>
@@ -160,7 +292,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/phpinfo.php" />
-        <option value="$PROJECT_DIR$/user/config/system.yaml" />
         <option value="$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php" />
         <option value="$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.yaml" />
         <option value="$PROJECT_DIR$/user/themes/twenty/templates/modular/banner.html.twig" />
@@ -182,9 +313,19 @@
         <option value="$PROJECT_DIR$/user/themes/twenty/templates/partials/header.html.twig" />
         <option value="$PROJECT_DIR$/user/plugins/form/templates/modular/form.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/twenty/templates/modular/form.html.twig" />
-        <option value="$PROJECT_DIR$/user/pages/01.home/modular.md" />
         <option value="$PROJECT_DIR$/user/config/site.yaml" />
+        <option value="$PROJECT_DIR$/user/config/system.yaml" />
+        <option value="$PROJECT_DIR$/system/config/system.yaml" />
+        <option value="$PROJECT_DIR$/user/plugins/admin/admin.php" />
         <option value="$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php" />
+        <option value="$PROJECT_DIR$/user/plugins/recaptchacontact/templates/partials/recaptchaform.html.twig" />
+        <option value="$PROJECT_DIR$/user/themes/twenty/templates/partials/base.html.twig" />
+        <option value="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/captcha/captcha.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/01.home/modular.md" />
+        <option value="$PROJECT_DIR$/prueba.php" />
+        <option value="$PROJECT_DIR$/user/plugins/login/login.php" />
+        <option value="$PROJECT_DIR$/user/plugins/form/form.php" />
+        <option value="$PROJECT_DIR$/user/plugins/email/email.php" />
       </list>
     </option>
   </component>
@@ -208,10 +349,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="222" />
-    <option name="width" value="1221" />
-    <option name="height" value="741" />
+    <option name="y" value="27" />
+    <option name="width" value="1270" />
+    <option name="height" value="997" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -238,11 +378,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landigDATA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landigDATA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landigDATA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -259,49 +416,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -325,23 +439,13 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <setting name="replType" value="1" />
       <module name="" />
-      <envs />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -568,62 +672,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="" />
@@ -712,41 +760,44 @@
       <workItem from="1478543045885" duration="20392000" />
       <workItem from="1478635383794" duration="3813000" />
       <workItem from="1478714795452" duration="11133000" />
-      <workItem from="1478802433884" duration="7275000" />
+      <workItem from="1478802433884" duration="10925000" />
+      <workItem from="1479146088053" duration="1611000" />
+      <workItem from="1479307475718" duration="6124000" />
+      <workItem from="1479342508773" duration="4234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54951000" />
+    <option name="totallyTimeSpent" value="70570000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="222" width="1221" height="741" extended-state="0" />
+    <frame x="0" y="27" width="1270" height="997" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65849674" sideWeight="0.50729924" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5065466" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.49345335" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27921093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27905074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4521625" sideWeight="0.49270073" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -792,16 +843,6 @@
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
           <line>62</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
-          <line>63</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/user/plugins/email/email.php</url>
-          <line>64</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -865,106 +906,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#30#53#0#PHP" expanded="true" />
-            <marker date="1478874236303" expanded="true" signature="5715:6335" placeholder="..." />
-            <marker date="1478874236303" expanded="true" signature="5811:6328" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="15" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/login/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10608">
-          <caret line="638" column="35" selection-start-line="638" selection-start-column="20" selection-end-line="638" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/route.php" />
     <entry file="file://$PROJECT_DIR$/user/plugins/login/classes/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/email/email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/login/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10608">
-          <caret line="638" column="35" selection-start-line="638" selection-start-column="20" selection-end-line="638" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/login/classes/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/email/email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -977,14 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/form/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4811">
-          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -993,6 +931,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_contact/form.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-187">
@@ -1000,9 +941,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/_icons.html.twig">
@@ -1026,15 +964,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/twenty/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42364">
-          <caret line="2492" column="9" selection-start-line="2492" selection-start-column="9" selection-end-line="2492" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/plugins/admin/pages/admin/config.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -1042,9 +975,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/features.html.twig">
@@ -1065,15 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,26 +1027,247 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/_portfolio/portfolio.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="47" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/_contact/form.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/twenty/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/pruebawhm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/recaptchacontact/recaptchacontact.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_bottom/bottom.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="43" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_banner/banner.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_icons/icons.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="64">
+            <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_features/features.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="106">
+            <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/banner.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/forms/default/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/forms/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/partials/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/site.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/modular/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/config/system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2331">
+          <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/config/site.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1827">
+          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/twenty/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52605">
+          <caret line="2505" column="0" selection-start-line="2505" selection-start-column="0" selection-end-line="2505" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Caddyfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/classes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5649">
+          <caret line="294" column="0" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5922">
+          <caret line="294" column="37" selection-start-line="294" selection-start-column="37" selection-end-line="294" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/blueprints/config/system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="779" column="65" selection-start-line="779" selection-start-column="50" selection-end-line="779" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+          <folding>
+            <element signature="e#30#53#0#PHP" expanded="true" />
+            <marker date="1479310624245" expanded="true" signature="5733:6353" ph="..." />
+            <marker date="1479310624245" expanded="true" signature="5829:6346" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/recaptchacontact/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -1135,197 +1277,32 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/twenty/assets/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/user/plugins/recaptchacontact/templates/partials/recaptchaform.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/pruebawhm.php">
+    <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/partials/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="8">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="72" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.php">
+    <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/forms/fields/captcha/captcha.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="24" selection-start-line="1" selection-start-column="0" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="477">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/recaptchacontact/recaptchacontact.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_bottom/bottom.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="136">
-            <caret line="8" column="43" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_banner/banner.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="102">
-            <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_icons/icons.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="64">
-            <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_features/features.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="106">
-            <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/banner.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="68" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/forms/default/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="46" column="60" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/forms/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/partials/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/twenty/templates/modular/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="82" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/config/site.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/config/site.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/form/templates/modular/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="120" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/correomasivo/correomasivo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
-          <folding>
-            <element signature="e#30#53#0#PHP" expanded="true" />
-            <marker date="1478874236303" expanded="true" signature="5715:6335" placeholder="..." />
-            <marker date="1478874236303" expanded="true" signature="5811:6328" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-931">
-            <caret line="14" column="36" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
@@ -1334,6 +1311,47 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="340">
+            <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="616" column="9" selection-start-line="616" selection-start-column="9" selection-end-line="616" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/form/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="303" column="10" selection-start-line="303" selection-start-column="10" selection-end-line="303" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/email/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

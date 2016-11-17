@@ -69,7 +69,16 @@ form:
       options:
         default: Solicitar Informacion
         demo: Solicitar un demo del Producto
-        
+      
+    - 
+      name: g-recaptcha-response
+      label: Captcha
+      type: captcha
+      recaptcha_site_key: 6LctJAwUAAAAACbdnqNINEvNq7MGcrXD2wU7o7UI
+      recaptcha_not_validated: 'Captcha not valid!'
+      validate:
+        required: true
+      
     -  
       name: comentario
       label: Comentarios:
@@ -84,9 +93,6 @@ form:
         value : Enviar
 
     process:
-        - whm :  
         - message: La información ha sido enviada...un representante de netquatro se comunicará con usted
-       
 ---
-
 

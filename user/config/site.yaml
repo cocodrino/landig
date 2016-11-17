@@ -1,10 +1,14 @@
 title: Net4Email
 author:
-  name: 'desarrollo'
+  name: desarrollo
   email: soporte@netquatro.com
 taxonomies:
   - category
   - tag
+  - mail
+  - correo
+  - venezuela
+  - bolivares
 metadata:
   description: 'correo masivo en venezuela pagado en bolivares, miles de correos para tu campaña'
 summary:
@@ -29,6 +33,6 @@ copyright:
   line1: Netquatro
   line2: 'Design:'
   url: 'http://www.netquatro.com'
-  url_label: 'Netquatro'
+  url_label: Netquatro
 logo:
   text1: Netquatro

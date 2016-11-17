@@ -292,8 +292,8 @@ class FormPlugin extends Plugin
         $form = $event['form'];
         $action = $event['action'];
         $params = $event['params'];
-        dump($form);
-        dump($action);
+        //dump($form);
+        //dump($action);
         $this->process($form);
 
         switch ($action) {

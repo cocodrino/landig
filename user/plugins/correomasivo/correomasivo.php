@@ -63,17 +63,17 @@ class CorreomasivoPlugin extends Plugin {
 
     public function onFormProcessed(Event $event) {
         $data = $event['form']->value();
-        $this->grav['debugger']->addMessage($data);
+        //$this->grav['debugger']->addMessage($data);
 
-        $this->grav['debugger']->addMessage($data->items);
-        dump($data);
+        //$this->grav['debugger']->addMessage($data->items);
+        //dump($data);
 
         $form = $event['form'];
         $action = $event['action'];
         switch ($action) {
             case 'whm':
-                $this->grav['debugger']->addMessage("nombre");
-                $this->grav['debugger']->addMessage($data->items['nombre']);
+                //$this->grav['debugger']->addMessage("nombre");
+                //$this->grav['debugger']->addMessage($data->items['nombre']);
 
 
                 $url = "http://netquatro.co/miportal/includes/api.php"; # URL to WHMCS API file
@@ -109,14 +109,14 @@ class CorreomasivoPlugin extends Plugin {
                 try {
 
                     //------creamos el usuario en el whmcs---------------------------------------------------------
-                    $ch = curl_init();
+/*                    $ch = curl_init();
                     curl_setopt($ch, CURLOPT_URL, $url);
                     curl_setopt($ch, CURLOPT_POST, 1);
                     curl_setopt($ch, CURLOPT_TIMEOUT, 100);
                     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                     curl_setopt($ch, CURLOPT_POSTFIELDS, $postfields);
                     curl_exec($ch);
-                    curl_close($ch);
+                    curl_close($ch);*/
                     
                     
                     //--------enviamos el correo usando el manejador de correo-------------------------------------
@@ -124,14 +124,14 @@ class CorreomasivoPlugin extends Plugin {
 
 
                     $rcpt = array(
-                        array(
+/*                        array(
                              'name' => 'Bernardo',
                              'email' => 'bernardo.murillo@netquatro.com'
                          ),
                          array(
                              'name' => 'Daniel',
                              'email' => 'daniel.perez@netquatro.com'
-                         ),
+                         ),*/
                        array(
                             'name' => null,
                             'email' => 'carlos.laguna@netquatro.com'
@@ -178,14 +178,14 @@ class CorreomasivoPlugin extends Plugin {
                         die('Bad status returned. Error: ' . $result->error);
                     }
 
-                    var_dump($result->data);
+                    //var_dump($result->data);
 
 
                     curl_close($curl);
 
                 } catch (Exception $e) {
-                    var_dump($e);
-                    $this->grav['debugger']->addMessage("ERR: " . json_encode($e));
+                    //var_dump($e);
+                    //$this->grav['debugger']->addMessage("ERR: " . json_encode($e));
 
                 }
         }

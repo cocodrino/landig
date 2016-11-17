@@ -614,7 +614,7 @@ class LoginPlugin extends Plugin
 
         if ($this->config->get('plugins.login.user_registration.options.send_activation_email', false)) {
             $this->login->sendActivationEmail($user);
-        } else {
+        }else {
             if ($this->config->get('plugins.login.user_registration.options.send_welcome_email', false)) {
                 $this->login->sendWelcomeEmail($user);
             }
@@ -639,7 +639,7 @@ class LoginPlugin extends Plugin
     public function onFormProcessed(Event $event)
     {
         $this->grav['debugger']->addMessage("funciona ok!!");
-        dump($event);
+        //dump($event);
         $form = $event['form'];
         $action = $event['action'];
 

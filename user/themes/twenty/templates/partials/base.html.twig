@@ -23,7 +23,6 @@
         {% endblock head%}
     </head>
     <body class="{{ page.header.body_class }}">
-
         {% block header %}
             {% include 'partials/header.html.twig' %}
         {% endblock %}
@@ -52,6 +51,26 @@
             {% do assets.addJs('theme://assets/js/main.js') %}
         {% endblock %}
         {{ assets.js() }}
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                $(".espaciado").hide();
+                var enableBtn = function () {
+                    alert("ok")
+                }
+
+                var validarcaptcha = setInterval(function() {
+
+                    if ($('#g-recaptcha-response').val() !== "" ) {
+                        $(".espaciado").show();
+                        clearInterval(validarcaptcha);
+                    }
+                }, 1000);
+
+
+            })
+        </script>
 
     </body>
 </html>

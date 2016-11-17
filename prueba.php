@@ -40,5 +40,3 @@ $result = json_decode($json);
 if ($result->status == 0) {
     die('Bad status returned. Error: '. $result->error);
 }
-
-var_dump($result->data);

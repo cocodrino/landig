@@ -292,7 +292,6 @@ class AdminPlugin extends Plugin
                 throw new \RuntimeException('The Admin Plugin cannot run on the PHP built-in webserver. It needs Apache, Nginx or another full-featured web server.',
                     500);
             }
-            $this->grav['debugger']->addMessage("Admin Basic");
             $this->initializeAdmin();
 
             // Disable Asset pipelining (old method - remove this after Grav is updated)

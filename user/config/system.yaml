@@ -76,7 +76,7 @@ cache:
   gzip: false
 twig:
   cache: false
-  debug: true
+  debug: false
   auto_reload: true
   autoescape: false
   undefined_functions: true
@@ -100,12 +100,12 @@ errors:
   display: true
   log: true
 debugger:
-  enabled: true
+  enabled: false
   shutdown:
     close_connection: false
   twig: true
 images:
-  default_image_quality: 85
+  default_image_quality: 100
   cache_all: false
   cache_perms: '0755'
   debug: false
