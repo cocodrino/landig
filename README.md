@@ -1,1 +1,1 @@
---- SAMPLE GRAV PROJECT WITH FORM ISSUE, NOTHING IMPORTANT HERE YET!!!!
+landing page for net4email builded with grav cms and using a custom form
